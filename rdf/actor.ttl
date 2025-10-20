@@ -139,3 +139,71 @@
    schema:url <https://www.dpgmediagroup.com/> ;
    skos:exactMatch <http://www.wikidata.org/entity/Q63020424> ;
    skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> .
+
+<https://data.razu.nl/id/actor/e368b7e6159f0608c95bfdcc3bf14f7b>
+   a schema:Person, skos:Concept ;
+   skos:prefLabel "Kors van Bennekom"@nl;
+   schema:hasOccupation [
+      a schema:Occupation ;
+      schema:name "fotograaf"@nl
+   ] ;
+   skos:scopeNote "Toegevoegd in verband met opt-out koepelovereenkomst inzake auteursrechten."@nl;
+   skos:exactMatch <http://www.wikidata.org/entity/Q24736595>;
+   schema:url <https://korsvanbennekom.org/>;
+   skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> .
+
+<https://data.razu.nl/id/actor/64a133b9164ebcfb66a81795ea4ae606>
+   a schema:Person, skos:Concept ;
+   skos:prefLabel "Joris van Bennekom"@nl;
+   schema:hasOccupation [
+      a schema:Occupation ;
+      schema:name "fotograaf"@nl
+   ] ;
+   skos:scopeNote "Toegevoegd in verband met opt-out koepelovereenkomst inzake auteursrechten."@nl;
+   schema:url <https://jorisvanbennekom.nl/>;
+   skos:exactMatch <http://www.wikidata.org/entity/Q29557338>;
+   skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> .
+
+<https://data.razu.nl/id/actor/b3cf0d11fb1a4678ec4c353b261262ac>
+   a schema:Person, skos:Concept ;
+   skos:prefLabel "Marrie Bot"@nl;
+   schema:hasOccupation [
+      a schema:Occupation ;
+      schema:name "fotograaf"@nl
+   ] ;
+   skos:scopeNote "Toegevoegd in verband met opt-out koepelovereenkomst inzake auteursrechten."@nl;   
+   schema:url <https://marriebot.com/>;
+   skos:exactMatch <http://www.wikidata.org/entity/Q19842201>;
+   skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> .
+
+<https://data.razu.nl/id/actor/d287145d55c36b8946c3c5e5b39befbe>
+   a schema:Person, skos:Concept ;
+   skos:prefLabel "Gert Gesink"@nl;   
+   schema:hasOccupation [
+      a schema:Occupation ;
+      schema:name "auteur"@nl
+   ] ;
+   skos:scopeNote "Toegevoegd in verband met opt-out koepelovereenkomst inzake auteursrechten."@nl;  
+   skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> .
+
+<https://data.razu.nl/id/actor/54c0ba1fabcf6f09db71ce562392aa1d>
+   a schema:Person, skos:Concept ;
+   skos:prefLabel "Klaas Koppe"@nl;
+      schema:hasOccupation [
+      a schema:Occupation ;
+      schema:name "fotograaf"@nl
+   ] ;
+   skos:scopeNote "Toegevoegd in verband met opt-out koepelovereenkomst inzake auteursrechten."@nl;
+   schema:url <https://www.klaaskoppe.nl/> ;
+   skos:exactMatch <http://www.wikidata.org/entity/Q28767974>;
+   skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> .
+
+<https://data.razu.nl/id/actor/a4e545cc04ce800f4c5e2968835194d0>
+   a schema:Person, skos:Concept ;
+   skos:prefLabel "John Melskens"@nl;
+   schema:hasOccupation [
+      a schema:Occupation ;
+      schema:name "fotograaf"@nl
+   ] ;
+   skos:scopeNote "Toegevoegd in verband met opt-out koepelovereenkomst inzake auteursrechten."@nl;
+   skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> .

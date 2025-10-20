@@ -12,7 +12,7 @@ Thesauri in RDF for the RAZU e-depot / digital repository.
 
 4. Run `python tools/storeS3.py` to upload the generated json files to the `context`bucket in the S3 store.
 
-5. Upload the files to the relevant datasets in the triplestore (documentation = TODO, automation = TODO).
+5. Upload the files to the relevant datasets in the triplestore. Currently done manually.
 Each thesaurus has its own dataset in the Triply environment. Each thesaurus is also uploaded to the id/object dataset to allow all data to be queried from a single SPARQL endpoint.
 
 ## Requirements
@@ -20,6 +20,16 @@ Each thesaurus has its own dataset in the Triply environment. Each thesaurus is 
 Make sure to load the requirements from `requirements.txt` before running the scripts.
 For `storeS3.py`, [Razulibs](https://github.com/Regionaal-Archief-Zuid-Utrecht/razulibs) should be in the `$PYTHONPATH` environment variable, or installed in your python environment.
 
+## Environment configuration
+
+Install dependencies
+   
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+Make sure razulibs is in `$PYTHONPATH`.
+
 ## TODO
 
-- Add upload to triplestore
+- Automated upload to triplestore
