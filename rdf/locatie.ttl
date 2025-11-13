@@ -1153,7 +1153,7 @@
 <https://data.razu.nl/id/locatie/97622407cb0f2fe2bd8bb5b8c788340c>
     a schema:Place, skos:Concept  ;
     skos:prefLabel "Alblasserwaard (regio)"@nl ;
-    schema:name "Alblasserwaardk"@nl ;
+    schema:name "Alblasserwaard"@nl;
     geo:hasGeometry [ 
         a geo:Geometry ;
         geo:asWKT "POINT(4.8 51.87)"^^geo:wktLiteral ;
