@@ -31,6 +31,13 @@
   skos:inScheme <https://data.razu.nl/id/betrokkenheid/8e5fc8818e2acb55185b9330d81a3b53> ;
   skos:prefLabel "Ontwerper" .
 
+<https://data.razu.nl/id/betrokkenheid/4bb5da084da7cbef67d5f21bcb933af7>
+  a skos:Concept ;
+  skos:note "De ontwerper van gebouwen of vergelijkbare constructies." ;
+  skos:inScheme <https://data.razu.nl/id/betrokkenheid/8e5fc8818e2acb55185b9330d81a3b53> ;
+  skos:broader <https://data.razu.nl/id/betrokkenheid/a5ddb6c3c136c956e99041df65b240a0> ;
+  skos:prefLabel "Architect" .
+
 <https://data.razu.nl/id/betrokkenheid/943e61542466905ac02e3548cfe68713>
   a skos:Concept ;
   skos:note "De uitgever van een publicatie." ;
@@ -42,3 +49,9 @@
   skos:note "De curator van een collectie." ;
   skos:inScheme <https://data.razu.nl/id/betrokkenheid/8e5fc8818e2acb55185b9330d81a3b53> ;
   skos:prefLabel "Curator" .
+
+<https://data.razu.nl/id/betrokkenheid/80535b4e36061f628427ba168cc4bd5c>
+  a skos:Concept ;
+  skos:note "Persoon of organisatie die een vergunning of besluit formeel verzoekt." ;
+  skos:inScheme <https://data.razu.nl/id/betrokkenheid/8e5fc8818e2acb55185b9330d81a3b53> ;
+  skos:prefLabel "Aanvrager" .
