@@ -129,5 +129,11 @@
 <https://data.razu.nl/id/soort/89cfa9e6349cc6bdf87135c96cd37e14> 
   a skos:Concept ;
   skos:prefLabel "Bibliografische collectie"@nl ;
-  skos:definition "Een verzameling van boekebn, kranten, tijdschiften, artikelen en dergelijke."@nl ;
+  skos:definition "Een verzameling van boeken, kranten, tijdschiften, artikelen en dergelijke."@nl ;
+  skos:inScheme <https://data.razu.nl/id/soort/bbc3a6702c26cc0f1ca33eb5e80c9d4a> .
+
+<https://data.razu.nl/id/soort/83f5430a921350f53972970595d2790c> 
+  a skos:Concept ;
+  skos:prefLabel "Bouwdossier"@nl ;
+  skos:definition "Een verzameling van documenten over de aanvraag, beoordeling en uitvoering van een bouwproject."@nl ;
   skos:inScheme <https://data.razu.nl/id/soort/bbc3a6702c26cc0f1ca33eb5e80c9d4a> .
