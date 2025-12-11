@@ -506,7 +506,7 @@
     skos:inScheme <https://data.razu.nl/id/pub/f9021d3b9db7ec22f16ac2ecf2b2a757> . 
 
 
-<https://data.razu.nl/id/locatie/9e78b5e97274c20918b89c9fcc831c48>  
+<https://data.razu.nl/id/pub/9e78b5e97274c20918b89c9fcc831c48>  
     a schema:Newspaper, skos:Concept ;
     skos:prefLabel "De Gecombineerde Zuid-Holland"@nl;
     schema:name "De Gecombineerde Zuid-Holland" ;
