@@ -32,3 +32,4 @@ wheels/
 
 generated
 venv
+.venv

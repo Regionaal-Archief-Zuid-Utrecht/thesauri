@@ -5,7 +5,7 @@
 <https://data.razu.nl/id/bestandsformaat/21b73c5c25b191625d98b2b9bd5826ba> a skos:ConceptScheme ;
     skos:description "Begrippenlijst bestandsformaten, gebaseerd op PRONOM." ;
     skos:prefLabel "Bestandsformaten" ;
-    dcterms:hasFormat <https://context.opslag.razu.nl/bestandsformaat.json> .
+    dcterms:hasFormat <https://context.data.razu.nl/bestandsformaat.json> .
 
 
 <https://data.razu.nl/id/bestandsformaat/00085cec5474b3259751694b2fa065a6> a skos:Concept ;

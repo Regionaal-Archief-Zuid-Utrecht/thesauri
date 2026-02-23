@@ -8,7 +8,7 @@
    a skos:ConceptScheme ;
    skos:prefLabel "Actoren"@nl ;
    skos:description "Waardenlijst actoren"@nl ;
-   dcterms:hasFormat <https://context.opslag.razu.nl/actor.json> .
+   dcterms:hasFormat <https://context.data.razu.nl/actor.json> .
 
 <https://data.razu.nl/id/actor/2bdb658a032a405d71c19159bd2bbb3a>
    a schema:Organization, skos:Concept ;

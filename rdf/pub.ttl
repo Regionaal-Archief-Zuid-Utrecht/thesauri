@@ -8,7 +8,7 @@
    skos:prefLabel "Publicaties"@nl;
    skos:description "Publicaties (werken)"@nl;
    skos:description "Publications (works)"@en; 
-   dcterms:hasFormat <https://context.opslag.razu.nl/pub.json> .
+   dcterms:hasFormat <https://context.data.razu.nl/pub.json> .
 
 <https://data.razu.nl/id/pub/20f3edb47790a8e083c087a9a6d1e460>                        
     a schema:Newspaper, skos:Concept ;

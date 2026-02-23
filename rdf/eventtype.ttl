@@ -6,7 +6,7 @@
   skos:description "Type of soort event" ;
   skos:prefLabel "Eventtype" ;
   skos:scopeNote "Bevat zowel events vóór overdracht van archiefvormer naar de archiefinstelling, als ook events met betrekking tot het beheer, voor na de overdracht." ;
-  dcterms:hasFormat <https://context.opslag.razu.nl/eventtype.json> .
+  dcterms:hasFormat <https://context.data.razu.nl/eventtype.json> .
 
 <https://data.razu.nl/id/eventtype/creation>
   a skos:Concept ;

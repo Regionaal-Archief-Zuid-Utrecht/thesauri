@@ -5,7 +5,7 @@
   a skos:ConceptScheme ;
   skos:description "Informatiecategorieën Wet openbaarheid overheid"@nl ;
   skos:prefLabel "Informatiecategorieën Woo"@nl ;
-  dcterms:hasFormat <https://context.opslag.razu.nl/woocat.json> .
+  dcterms:hasFormat <https://context.data.razu.nl/woocat.json> .
 
 <https://data.razu.nl/id/woocat/a2e0be35531e403bee720684e487bb77>
     a skos:Concept ;

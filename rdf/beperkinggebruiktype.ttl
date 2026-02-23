@@ -6,7 +6,7 @@
   a skos:ConceptScheme ;
   skos:prefLabel "Typering mogelijke beperkingen gebruik"@nl ;
   skos:description "Typering mogelijke beperkingen in het gebruik van, of de toegang tot, een informatieobject."@nl ;
-  dcterms:hasFormat <https://context.opslag.razu.nl/beperkinggebruiktype.json> .
+  dcterms:hasFormat <https://context.data.razu.nl/beperkinggebruiktype.json> .
 
 <https://data.razu.nl/id/beperkinggebruiktype/3e82de530014486e637ea9257088ccea>
     a skos:Collection ;

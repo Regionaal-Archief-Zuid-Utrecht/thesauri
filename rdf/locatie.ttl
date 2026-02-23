@@ -9,7 +9,7 @@
    a skos:ConceptScheme ;
    skos:prefLabel "Locaties"@nl;
    skos:description "Waardenlijst locaties"@nl ;
-   dcterms:hasFormat <https://context.opslag.razu.nl/algoritme.json> .
+   dcterms:hasFormat <https://context.data.razu.nl/locatie.json> .
 
 <https://data.razu.nl/id/locatie/4fbf1371d27645fce1e2fee1191a59c2> 
     a schema:Place, skos:Concept ;

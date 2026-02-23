@@ -5,7 +5,7 @@
   a skos:ConceptScheme ;
   skos:description "Nadere typering van het tijdstip of de periode waar de inhoud van het informatieobject betrekking op heeft." ;
   skos:prefLabel "Type dekking in tijd" ;
-  dcterms:hasFormat <https://context.opslag.razu.nl/dekkingintijdtype.json> .
+  dcterms:hasFormat <https://context.data.razu.nl/dekkingintijdtype.json> .
 
 <https://data.razu.nl/id/dekkingintijdtype/24f59b9806eb9f5d04e5a2a9ae01955e>
   a skos:Concept ;

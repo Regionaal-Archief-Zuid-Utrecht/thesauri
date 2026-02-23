@@ -12,7 +12,7 @@
    a skos:ConceptScheme ;
    skos:prefLabel "Applicaties"@nl ;
    skos:description "Register sofware-applicaties"@nl ;
-   dcterms:hasFormat <https://context.opslag.razu.nl/applicatie.json> .
+   dcterms:hasFormat <https://context.data.razu.nl/applicatie.json> .
 
 <https://data.razu.nl/id/applicatie/435f06bd2040d14bbacfbefb6e9a9bba>
     a schema:ProductModel, skos:Concept ; 

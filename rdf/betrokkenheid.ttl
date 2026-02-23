@@ -5,7 +5,7 @@
   a skos:ConceptScheme ;
   skos:description "Begrippenlijst voor de aard van de betrokkenheid" ;
   skos:prefLabel "Aard betrokkenheid" ;
-  dcterms:hasFormat <https://context.opslag.razu.nl/betrokkenheid.json> .
+  dcterms:hasFormat <https://context.data.razu.nl/betrokkenheid.json> .
 
 <https://data.razu.nl/id/betrokkenheid/6424a4b2a1b054d78ca1c9c69ca16016>
   a skos:Concept ;

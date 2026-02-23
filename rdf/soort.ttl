@@ -5,7 +5,7 @@
    a skos:ConceptScheme ;
    skos:description "Type of soort informatieobject"@nl ;
    skos:prefLabel "Soort"@nl ;
-   dcterms:hasFormat <https://context.opslag.razu.nl/soort.json> .
+   dcterms:hasFormat <https://context.data.razu.nl/soort.json> .
 
 <https://data.razu.nl/id/soort/4494b13ba2a3d7354c3c02b970bc51b6>
    a skos:Concept ;

@@ -81,7 +81,7 @@ ex:ConceptSchemeShape a sh:NodeShape ;
         sh:minCount 1 ; 
         sh:maxCount 1 ;
         sh:nodeKind sh:IRI ;
-        sh:pattern "^https://context\\.opslag\\.razu\\.nl/[a-z0-9]+\\.json$"
+        sh:pattern "^https://context\\.data\\.razu\\.nl/[a-z0-9]+\\.json$"
     ] ;
     sh:nodeKind sh:IRI ; 
     sh:pattern "^https://data\\.razu\\.nl/id/[^/]+/[^/]+$" .  # Verzekert dat de URI voldoet aan het patroon https://data.razu.nl/id/*/* .
