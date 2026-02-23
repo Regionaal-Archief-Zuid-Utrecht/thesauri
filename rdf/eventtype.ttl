@@ -42,29 +42,89 @@
   a skos:Concept ;
   skos:prefLabel "Fixityregistratie" ;
   skos:note "Registratie van de fixity van het bestand." ;
+  skos:closeMatch <http://id.loc.gov/vocabulary/preservation/eventType/mes> ;
   skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
 
 <https://data.razu.nl/id/eventtype/completeness-check>
   a skos:Concept ;
   skos:prefLabel "Volledigheidscontrole" ;
   skos:note "Controle op de volledigheid van het informatieobject." ;
+  skos:relatedMatch <http://id.loc.gov/vocabulary/preservation/eventType/val> ;
   skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
 
 <https://data.razu.nl/id/eventtype/metadata-creation>
   a skos:Concept ;
   skos:prefLabel "Metadatacreatie" ;
   skos:note "Het aanmaken van metadata voor het informatieobject of bestand." ;
+  skos:relatedMatch <http://id.loc.gov/vocabulary/preservation/eventType/mee> ;
   skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
 
 <https://data.razu.nl/id/eventtype/fixity-check>
   a skos:Concept ;
   skos:prefLabel "Fixitycontrole" ;
   skos:note "Controle op de fixity van het bestand." ;
+  skos:closeMatch <http://id.loc.gov/vocabulary/preservation/eventType/fix> ;
   skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
 
 <https://data.razu.nl/id/eventtype/metadata-validation>
   a skos:Concept ;
   skos:prefLabel "Metadatavalidatie" ;
   skos:note "Validatie van de metadata van het informatieobject of bestand." ;
+  skos:broadMatch <http://id.loc.gov/vocabulary/preservation/eventType/val> ;
   skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
 
+<https://data.razu.nl/id/eventtype/format-identification>
+  a skos:Concept ;
+  skos:prefLabel "Bestandsformaat-identificatie" ;
+  skos:note "Identificatie van het bestandsformaat." ;
+  skos:closeMatch <http://id.loc.gov/vocabulary/preservation/eventType/for> ;
+  skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
+
+<https://data.razu.nl/id/eventtype/malware-detection>
+  a skos:Concept ;
+  skos:prefLabel "Malware-analyse" ;
+  skos:note "Het analyseren van bestanden op het voorkomen van kwaadaardige code." ;
+  skos:closeMatch <http://id.loc.gov/vocabulary/preservation/eventType/vir> ;
+  skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
+
+<https://data.razu.nl/id/eventtype/identifier-assignment>
+  a skos:Concept ;
+  skos:prefLabel "Identifier-toewijzing" ;
+  skos:note "Toewijzen van een unieke identifier aan het informatieobject of bestand. Bestanden worden hierbij hernoemd" ;
+  skos:relatedMatch <http://id.loc.gov/vocabulary/preservation/eventType/fil> ;
+  skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
+
+<https://data.razu.nl/id/eventtype/format-migration>
+  a skos:Concept ;
+  skos:prefLabel "Bestandsformaat-migratie" ;
+  skos:note "Het aanmaken van een nieuw bestand door een bronbestand om te zetten naar een bestand met een duurzamer bestandsformaat." ;
+  skos:closeMatch <http://id.loc.gov/vocabulary/preservation/eventType/mig> ;
+  skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
+
+<https://data.razu.nl/id/eventtype/ingestion>
+  a skos:Concept ;
+  skos:prefLabel "Laden" ;
+  skos:note "Het maken van een AIP door het laden van een SIP in het archiefsysteem." ;
+  skos:closeMatch <http://id.loc.gov/vocabulary/preservation/eventType/ing> ;
+  skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
+
+<https://data.razu.nl/id/eventtype/replication>
+  a skos:Concept ;
+  skos:prefLabel "Repliceren" ;
+  skos:note "Het repliceren van een AIP naar een andere opslagvoorziening." ;
+  skos:closeMatch <http://id.loc.gov/vocabulary/preservation/eventType/rep> ;
+  skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
+
+<https://data.razu.nl/id/eventtype/accession>
+  a skos:Concept ;
+  skos:prefLabel "Formele inontvangstname" ;
+  skos:note "De formele ontvangst van een AIP." ;
+  skos:closeMatch <http://id.loc.gov/vocabulary/preservation/eventType/acc> ;
+  skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
+
+<https://data.razu.nl/id/eventtype/reception>
+  a skos:Concept ;
+  skos:prefLabel "Ontvangstregistratie" ;
+  skos:note "Vastlegging van de ontvangst van een SIP voor verwerking tot uiteindelijke opname in het archiefsysteem." ;
+  skos:broadMatch <http://id.loc.gov/vocabulary/preservation/eventType/tra> ;
+  skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
