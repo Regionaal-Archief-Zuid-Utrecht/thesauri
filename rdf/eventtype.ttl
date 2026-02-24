@@ -4,127 +4,165 @@
 <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9>
   a skos:ConceptScheme ;
   skos:description "Type of soort event" ;
-  skos:prefLabel "Eventtype" ;
-  skos:scopeNote "Bevat zowel events vóór overdracht van archiefvormer naar de archiefinstelling, als ook events met betrekking tot het beheer, voor na de overdracht." ;
+  skos:prefLabel "Eventtype"@en ;
+  skos:scopeNote "Bevat zowel events vóór overdracht van archiefvormer naar de archiefinstelling, als ook events met betrekking tot het beheer, voor na de overdracht."@nl ;
+  skos:scopeNote "Contains the event vocabulary for actions happening both before the transfer from the archive creator to the archive institution, as well as those related to management after the transfer."@en ;
   dcterms:hasFormat <https://context.data.razu.nl/eventtype.json> .
 
 <https://data.razu.nl/id/eventtype/creation>
   a skos:Concept ;
-  skos:prefLabel "Creatie" ;
-  skos:note "Creatie van een informatieobject door een auteur." ;
+  skos:prefLabel "Creatie"@nl ;
+  skos:prefLabel "Creation"@en ;
+  skos:note "Creatie van een informatieobject door een auteur."@nl ;
+  skos:note "Creation of an Information object by an author."@en ;
   skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
 
 <https://data.razu.nl/id/eventtype/processing>
   a skos:Concept ;
-  skos:prefLabel "Behandeling" ;
-  skos:note "Een gebeurtenis waarop een document, dossier of vergadering formeel behandeld wordt. Het tijdstip van dit event verwijst naar het moment waarop de behandeling gepland is of plaatsgevonden heeft." ;
+  skos:prefLabel "Behandeling"@nl ;
+  skos:prefLabel "Processing"@en ;
+  skos:note "Een gebeurtenis waarop een document, dossier of vergadering formeel behandeld wordt. Het tijdstip van dit event verwijst naar het moment waarop de behandeling gepland is of plaatsgevonden heeft."@nl ;
+  skos:note "An event at which a document, file, or meeting is formally addressed. The time of this event refers to the time at which the discussion was planned or took place."@en ;
   skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
 
 <https://data.razu.nl/id/eventtype/publication>
   a skos:Concept ;
-  skos:prefLabel "Publicatie" ;
-  skos:note "Publiceren van het Informatieobject en bijbehorende metagegevens, bijvoorbeeld op een openbare webpagina." ;
+  skos:prefLabel "Publicatie"@nl ;
+  skos:prefLabel "Publication"@en ;
+  skos:note "Publiceren van het Informatieobject en bijbehorende metagegevens, bijvoorbeeld op een openbare webpagina."@nl ;
+  skos:note "Publication of the Information Object and associated metadata, for example on a public web page."@en ;
   skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
 
 <https://data.razu.nl/id/eventtype/approval>
   a skos:Concept ;
-  skos:prefLabel "Accordering" ;
-  skos:note "Het accorderen van een informatieobject. Dit kan bijvoorbeeld door een digitale handtekening." ;
+  skos:prefLabel "Accordering"@nl ;
+  skos:prefLabel "Approval"@en ;
+  skos:note "Het accorderen van een informatieobject. Dit kan bijvoorbeeld door een digitale handtekening."@nl ;
+  skos:note "Approval of an information object. This can be done, for example, through a digital signature."@en ;
   skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
 
 <https://data.razu.nl/id/eventtype/closure>
   a skos:Concept ;
-  skos:prefLabel "Bevriezing" ;
-  skos:note "'Bevriezen' van het informatieobject, waarna geen wijzigingen meer zijn toegestaan. Voorbeelden zijn afsluiten van dossier of afronden van een tekstdocument." ;
+  skos:prefLabel "Bevriezing"@nl ;
+  skos:prefLabel "Closure"@en ;
+  skos:note "'Bevriezen' van het informatieobject, waarna geen wijzigingen meer zijn toegestaan. Voorbeelden zijn afsluiten van dossier of afronden van een tekstdocument."@nl ;
+  skos:note "To 'freeze' the Information Object, after which no further changes are permitted. Examples include closing a file or finalizing a text document."@en ;
   skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
 
 <https://data.razu.nl/id/eventtype/fixity-registration>
   a skos:Concept ;
-  skos:prefLabel "Fixityregistratie" ;
-  skos:note "Registratie van de fixity van het bestand." ;
+  skos:prefLabel "Fixityregistratie"@nl ;
+  skos:prefLabel "Fixity regisatration"@en ;
+  skos:note "Registratie van de fixity van het bestand."@nl ;
+  skos:note "Registration of the file's fixity."@en ;
   skos:closeMatch <http://id.loc.gov/vocabulary/preservation/eventType/mes> ;
   skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
 
 <https://data.razu.nl/id/eventtype/completeness-check>
   a skos:Concept ;
-  skos:prefLabel "Volledigheidscontrole" ;
-  skos:note "Controle op de volledigheid van het informatieobject." ;
+  skos:prefLabel "Volledigheidscontrole"@nl ;
+  skos:prefLabel "Completeness check"@en ;
+  skos:note "Controle op de volledigheid van het informatieobject."@nl ;
+  skos:note "Check of the completeness of the Information Object."@en ;
   skos:relatedMatch <http://id.loc.gov/vocabulary/preservation/eventType/val> ;
   skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
 
 <https://data.razu.nl/id/eventtype/metadata-creation>
   a skos:Concept ;
-  skos:prefLabel "Metadatacreatie" ;
-  skos:note "Het aanmaken van metadata voor het informatieobject of bestand." ;
+  skos:prefLabel "Metadatacreatie"@nl ;
+  skos:prefLabel "Metadata creation"@en ;
+  skos:note "Het aanmaken van metadata voor het informatieobject of bestand."@nl ;
+  skos:note "Creation of the metadata for the information object or file."@en ;
   skos:relatedMatch <http://id.loc.gov/vocabulary/preservation/eventType/mee> ;
   skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
 
 <https://data.razu.nl/id/eventtype/fixity-check>
   a skos:Concept ;
-  skos:prefLabel "Fixitycontrole" ;
-  skos:note "Controle op de fixity van het bestand." ;
+  skos:prefLabel "Fixitycontrole"@nl ;
+  skos:prefLabel "Fixity check"@en ;
+  skos:note "Controle op de fixity van het bestand."@nl ;
+  skos:note " Check of the file's fixity."@en ;
   skos:closeMatch <http://id.loc.gov/vocabulary/preservation/eventType/fix> ;
   skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
 
 <https://data.razu.nl/id/eventtype/metadata-validation>
   a skos:Concept ;
-  skos:prefLabel "Metadatavalidatie" ;
-  skos:note "Validatie van de metadata van het informatieobject of bestand." ;
+  skos:prefLabel "Metadatavalidatie"@nl ;
+  skos:prefLabel "Metadata validation"@en ;
+  skos:note "Validatie van de metadata van het informatieobject of bestand."@nl ;
+  skos:note "Validation of the metadata of the information object or file."@en ;
   skos:broadMatch <http://id.loc.gov/vocabulary/preservation/eventType/val> ;
   skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
 
 <https://data.razu.nl/id/eventtype/format-identification>
   a skos:Concept ;
-  skos:prefLabel "Bestandsformaat-identificatie" ;
-  skos:note "Identificatie van het bestandsformaat." ;
+  skos:prefLabel "Bestandsformaat-identificatie"@nl ;
+  skos:prefLabel "Format identification"@en ;
+  skos:note "Identificatie van het bestandsformaat."@nl ;
+  skos:note "File format identification."@en ; 
   skos:closeMatch <http://id.loc.gov/vocabulary/preservation/eventType/for> ;
   skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
 
 <https://data.razu.nl/id/eventtype/malware-detection>
   a skos:Concept ;
-  skos:prefLabel "Malware-analyse" ;
-  skos:note "Het analyseren van bestanden op het voorkomen van kwaadaardige code." ;
+  skos:prefLabel "Malware-analyse"@nl ;
+  skos:prefLabel "Malware detection"@en ;
+  skos:note "Het analyseren van bestanden op het voorkomen van kwaadaardige code."@nl ;
+  skos:note "Analysis of the files for the presence of malicious code."@en ;
   skos:closeMatch <http://id.loc.gov/vocabulary/preservation/eventType/vir> ;
   skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
 
 <https://data.razu.nl/id/eventtype/identifier-assignment>
   a skos:Concept ;
-  skos:prefLabel "Identifier-toewijzing" ;
-  skos:note "Toewijzen van een unieke identifier aan het informatieobject of bestand. Bestanden worden hierbij hernoemd" ;
+  skos:prefLabel "Identifier-toewijzing"@nl ;
+  skos:prefLabel "Identifier assignment"@en ;
+  skos:note "Toewijzen van een unieke identifier aan het informatieobject of bestand. Bestanden worden hierbij hernoemd"@nl ;
+  skos:note "Assigment of a unique identifier to the information object or file. Files are renamed in this process."@en ; 
   skos:relatedMatch <http://id.loc.gov/vocabulary/preservation/eventType/fil> ;
   skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
 
 <https://data.razu.nl/id/eventtype/format-migration>
   a skos:Concept ;
-  skos:prefLabel "Bestandsformaat-migratie" ;
-  skos:note "Het aanmaken van een nieuw bestand door een bronbestand om te zetten naar een bestand met een duurzamer bestandsformaat." ;
+  skos:prefLabel "Bestandsformaat-migratie"@nl ;
+  skos:prefLabel "Format migration"@en ;
+  skos:note "Het aanmaken van een nieuw bestand door een bronbestand om te zetten naar een bestand met een duurzamer bestandsformaat."@nl ;
+  skos:note "Creation of a new file by converting a source file to one with a more durable file format."@en ;
   skos:closeMatch <http://id.loc.gov/vocabulary/preservation/eventType/mig> ;
   skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
 
 <https://data.razu.nl/id/eventtype/ingestion>
   a skos:Concept ;
-  skos:prefLabel "Laden" ;
-  skos:note "Het maken van een AIP door het laden van een SIP in het archiefsysteem." ;
+  skos:prefLabel "Laden"@nl ;
+  skos:prefLabel "Ingestion"@en ;
+  skos:note "Het maken van een AIP door het laden van een SIP in het archiefsysteem."@nl ;
+  skos:note "Creation of an AIP by loading a SIP into the archive system."@en ;
   skos:closeMatch <http://id.loc.gov/vocabulary/preservation/eventType/ing> ;
   skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
 
 <https://data.razu.nl/id/eventtype/replication>
   a skos:Concept ;
-  skos:prefLabel "Repliceren" ;
-  skos:note "Het repliceren van een AIP naar een andere opslagvoorziening." ;
+  skos:prefLabel "Repliceren"@nl ;
+  skos:prefLabel "Replication"@en ;
+  skos:note "Het repliceren van een AIP naar een andere opslagvoorziening."@nl ;
+  skos:note "Replication of an AIP to another storage facility."@en ; 
   skos:closeMatch <http://id.loc.gov/vocabulary/preservation/eventType/rep> ;
   skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
 
 <https://data.razu.nl/id/eventtype/accession>
   a skos:Concept ;
-  skos:prefLabel "Formele inontvangstname" ;
-  skos:note "De formele ontvangst van een AIP." ;
+  skos:prefLabel "Formele inontvangstname"@nl ;
+  skos:prefLabel "Accession"@en ;
+  skos:note "De formele ontvangst van een AIP."@nl ;
+  skos:note "The process of adding an object to the inventory of a repository. This provides a clear delineation point for the assumption of responsibility for the digital content’s preservation"@en ;
   skos:closeMatch <http://id.loc.gov/vocabulary/preservation/eventType/acc> ;
   skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
 
 <https://data.razu.nl/id/eventtype/reception>
   a skos:Concept ;
-  skos:prefLabel "Ontvangstregistratie" ;
-  skos:note "Vastlegging van de ontvangst van een SIP voor verwerking tot uiteindelijke opname in het archiefsysteem." ;
+  skos:prefLabel "Ontvangstregistratie"@nl ;
+  skos:prefLabel "Reception"@en ;
+  skos:note "Vastlegging van de ontvangst van een SIP voor verwerking tot uiteindelijke opname in het archiefsysteem."@nl ;
+  skos:note "The process of transmitting a SIP to a repository for processing until final inclusion in the archive system."@en ;
   skos:broadMatch <http://id.loc.gov/vocabulary/preservation/eventType/tra> ;
   skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
+
