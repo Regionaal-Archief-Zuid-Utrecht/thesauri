@@ -5,6 +5,7 @@
   a skos:ConceptScheme ;
   skos:description "Type of soort event" ;
   skos:prefLabel "Eventtype"@en ;
+  skos:prefLabel "Event-klassen"@nl ;
   skos:scopeNote "Bevat zowel events vóór overdracht van archiefvormer naar de archiefinstelling, als ook events met betrekking tot het beheer, voor na de overdracht."@nl ;
   skos:scopeNote "Contains the event vocabulary for actions happening both before the transfer from the archive creator to the archive institution, as well as those related to management after the transfer."@en ;
   dcterms:hasFormat <https://context.data.razu.nl/eventtype.json> .
@@ -21,8 +22,8 @@
   a skos:Concept ;
   skos:prefLabel "Behandeling"@nl ;
   skos:prefLabel "Processing"@en ;
-  skos:note "Een gebeurtenis waarop een document, dossier of vergadering formeel behandeld wordt. Het tijdstip van dit event verwijst naar het moment waarop de behandeling gepland is of plaatsgevonden heeft."@nl ;
-  skos:note "An event at which a document, file, or meeting is formally addressed. The time of this event refers to the time at which the discussion was planned or took place."@en ;
+  skos:note "Een gebeurtenis of periode waar een document, dossier of vergadering formeel behandeld wordt."@nl ;
+  skos:note "An event or period at which a document, file, or meeting is formally addressed."@en ;
   skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
 
 <https://data.razu.nl/id/eventtype/publication>
@@ -161,8 +162,8 @@
   a skos:Concept ;
   skos:prefLabel "Ontvangstregistratie"@nl ;
   skos:prefLabel "Reception"@en ;
-  skos:note "Vastlegging van de ontvangst van een SIP voor verwerking tot uiteindelijke opname in het archiefsysteem."@nl ;
-  skos:note "The process of transmitting a SIP to a repository for processing until final inclusion in the archive system."@en ;
+  skos:note "Vastlegging van de ontvangst van een SIP voor verwerking gericht op uiteindelijke opname in het systeem voor duurzame opslag. Aanvang van de verwerking."@nl ;
+  skos:note "The registration that a submitted SIP was received for pre-ingest and further processing, aimed at inclusion in the long term preservation system. The start of pre-ingest."@en ;
   skos:broadMatch <http://id.loc.gov/vocabulary/preservation/eventType/tra> ;
   skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
 

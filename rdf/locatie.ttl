@@ -4,6 +4,7 @@
 @prefix ogc: <http://www.opengis.net/def/crs/OGC/1.3/> . 
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ldto: <https://data.razu.nl/def/ldto/> .
 
 <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43>
    a skos:ConceptScheme ;
@@ -12,7 +13,7 @@
    dcterms:hasFormat <https://context.data.razu.nl/locatie.json> .
 
 <https://data.razu.nl/id/locatie/4fbf1371d27645fce1e2fee1191a59c2> 
-    a schema:Place, skos:Concept ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Austerlitz (plaats)"@nl ;
     schema:name "Austerlitz"@nl ;
     geo:hasGeometry [ 
@@ -26,7 +27,7 @@
 
 
 <https://data.razu.nl/id/locatie/86f6a4ab514cb29561cb65197cd233f3>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Brakel (plaats)"@nl ;
     schema:name "Brakel"@nl ;
     geo:hasGeometry [ 
@@ -40,7 +41,7 @@
 
 
 <https://data.razu.nl/id/locatie/3a25058fd74cee6a4f6a5b7c1a5263a9>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Buren (plaats)"@nl ;
     schema:name "Buren"@nl ;
     geo:hasGeometry [ 
@@ -53,7 +54,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/ae2b4db3b488bdb17dce722a5eb3d224>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Enspijk (plaats)"@nl ;
     schema:name "Enspijk"@nl ;
     geo:hasGeometry [ 
@@ -66,7 +67,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/2502acebd5887f2fc1fa98bb416bcffa>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Gameren (plaats)"@nl ;
     schema:name "Gamerenijk"@nl ;
     geo:hasGeometry [ 
@@ -79,7 +80,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/a88551f513733db885c209b84e85592d>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Hellouw (plaats)"@nl ;
     schema:name "Hellouw"@nl ;
     geo:hasGeometry [ 
@@ -92,7 +93,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/e3bf4e4eeb0bffe26dc17cc47602aa7c>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Kerkdriel (plaats)"@nl ;
     schema:name "Kerkdriel"@nl ;
     geo:hasGeometry [ 
@@ -105,7 +106,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/f9cff50bbea84828ce8b1f2f38e4c8c1>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie  ;
     skos:prefLabel "Maurik (plaats)"@nl ;
     schema:name "Maurik"@nl ;
     geo:hasGeometry [ 
@@ -118,7 +119,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/c965f7d9fb76f8a223b11c4885b1f3dd>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Meteren (plaats)"@nl ;
     schema:name "Meteren"@nl ;
     geo:hasGeometry [ 
@@ -131,7 +132,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/51ca4ea3fa26f2fba05b1d86c72dc769>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Nederhemert (plaats)"@nl ;
     schema:name "Nederhemert"@nl ;
     geo:hasGeometry [ 
@@ -145,7 +146,7 @@
 
 
 <https://data.razu.nl/id/locatie/b30417283592bc71c36516eae524e0e6>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie  ;
     skos:prefLabel "Ophemert (plaats)"@nl ;
     schema:name "Ophemert"@nl ;
     geo:hasGeometry [ 
@@ -158,7 +159,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/4d29643004f3878cb1865af61cf9b87d>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie  ;
     skos:prefLabel "Opijnen (plaats)"@nl ;
     schema:name "Opijnen"@nl ;
     geo:hasGeometry [ 
@@ -172,7 +173,7 @@
 
 
 <https://data.razu.nl/id/locatie/a31c18cbca2ebdc7f2b05e02df638d9b>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Tricht (plaats)"@nl ;
     schema:name "Tricht"@nl ;
     geo:hasGeometry [ 
@@ -186,7 +187,7 @@
 
 
 <https://data.razu.nl/id/locatie/a5fced58fb1a5d570397bcb7198cdab1>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Waardenburg (plaats)"@nl ;
     schema:name "Waardenburg"@nl ;
     geo:hasGeometry [ 
@@ -199,7 +200,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/f14093198c026c353be44d0291ee34ee>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Zoelen (plaats)"@nl ;
     schema:name "Zoelen"@nl ;
     geo:hasGeometry [ 
@@ -212,7 +213,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/4edaebb1dd7f9a15e2e4ccf72dfe283f> 
-    a schema:Place, skos:Concept ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Haaften (plaats)"@nl ;
     schema:name "Haaften"@nl ;
     geo:hasGeometry [ 
@@ -225,7 +226,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/c0d1ae18a5cccce8d6e9847ba94904ff> 
-    a schema:Place, skos:Concept ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Houten (plaats)"@nl ;
     schema:name "Houten"@nl ;
     geo:hasGeometry [ 
@@ -238,7 +239,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/ab8f1762b5e7bb47da861056a230d940>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Schalkwijk (plaats)"@nl ;
     schema:name "Schalkwijk"@nl ;
     geo:hasGeometry [ 
@@ -251,7 +252,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/c03189135b5f13ea1da74bd972d8f57a>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Tull en 't Waal (plaats)"@nl ;
     schema:name "Tull en 't Waal"@nl ;
     geo:hasGeometry [ 
@@ -265,7 +266,7 @@
 
 
 <https://data.razu.nl/id/locatie/c9682aad1ada5d296dc66925d15d256c>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "'t Goy (plaats)"@nl ;
     schema:name "'t Goy"@nl ;
     geo:hasGeometry [ 
@@ -278,7 +279,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/bf16fd9ceb0435731ea10b6e92c0848b>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Amerongen (plaats)"@nl ;
     schema:name "Amerongen"@nl ;
     geo:hasGeometry [ 
@@ -291,7 +292,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/152aa32fa903d3502880686e0d362668>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Leersum (plaats)"@nl ;
     schema:name "Leersum"@nl ;
     geo:hasGeometry [ 
@@ -304,7 +305,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/218bbb2e70cfce022ae09d6a4327b899>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Maarn (plaats)"@nl ;
     schema:name "Maarn"@nl ;
     geo:hasGeometry [ 
@@ -317,7 +318,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/a56c9792ea7d0614d0770b9bd46e3e56>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Maarsbergen (plaats)"@nl ;
     schema:name "Maarsbergen"@nl ;
     geo:hasGeometry [ 
@@ -330,7 +331,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/a4ed213e4fcc0888b2a88ab1a81847c4>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Doorn (plaats)"@nl ;
     schema:name "Doorn"@nl ;
     geo:hasGeometry [ 
@@ -343,7 +344,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/2f3d1d59d29f6f07ac921eb57fe37fbc>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Driebergen (plaats)"@nl ;
     schema:name "Driebergen"@nl ;
     geo:hasGeometry [ 
@@ -356,7 +357,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/086e8ac22c73a2498249a0835136837f>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Driebergen-Rijsenburg (plaats)"@nl ;
     schema:name "Driebergen-Rijsenburg"@nl ;
     geo:hasGeometry [ 
@@ -369,7 +370,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/f43ef3ffcb8654ff73a672a05b88b404>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Langbroek (plaats)"@nl ;
     schema:name "Langbroek"@nl ;
     geo:hasGeometry [ 
@@ -382,7 +383,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/f5ef414df02e8a28bb60055ff6e1c151>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Cothen (plaats)"@nl ;
     schema:name "Cothen"@nl ;
     geo:hasGeometry [ 
@@ -395,7 +396,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/d5acdcc4f873045aaefd2a31af723153>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Wijk bij Duurstede (plaats)"@nl ;
     schema:name "Wijk bij Duurstede"@nl ;
     geo:hasGeometry [ 
@@ -408,7 +409,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/1d264e0c825b53fae4942926e80ccde2>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Bunnik (plaats)"@nl ;
     schema:name "Bunnik"@nl ;
     geo:hasGeometry [ 
@@ -421,7 +422,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/af82368743a2c484d2b69238f3850117>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Odijk (plaats)"@nl ;
     schema:name "Odijk"@nl ;
     geo:hasGeometry [ 
@@ -434,7 +435,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/1745574a5916fa8eb50e4084caf1df83>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Werkhoven (plaats)"@nl ;
     schema:name "Werkhoven"@nl ;
     geo:hasGeometry [ 
@@ -447,7 +448,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/830bbd6ac4f17442d5fa262a3ef4525e>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Zeist (plaats)"@nl ;
     schema:name "Zeist"@nl ;
     geo:hasGeometry [ 
@@ -460,7 +461,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/56c126a7ba18c93c43e1da625b48e226>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Arkel (plaats)"@nl ;
     schema:name "Arkel"@nl ;
     geo:hasGeometry [ 
@@ -473,7 +474,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/c0a59278d7c5a0f7b19a574338071a27>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Asperen (plaats)"@nl ;
     schema:name "Asperen"@nl ;
     geo:hasGeometry [ 
@@ -486,7 +487,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/a6977baa61d147ab3e53e6fb6e6e987e>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Heukelum (plaats)"@nl ;
     schema:name "Heukelum"@nl ;
     geo:hasGeometry [ 
@@ -499,7 +500,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/0d076228b6f2d07d253fffe2e1f43923>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Leerdam (plaats)"@nl ;
     schema:name "Leerdam"@nl ;
     geo:hasGeometry [ 
@@ -512,7 +513,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/aa0891a7216c99d2c81c004170975000>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Rijsenburg (plaats)"@nl ;
     schema:name "Rijsenburg"@nl ;
     geo:hasGeometry [ 
@@ -525,7 +526,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/49ad38c2223a924377bb288d3803aadb>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Tienhoven aan de Lek(plaats)"@nl ;
     schema:name "Tienhoven aan de Lek"@nl ;
     schema:alternateName "Tienhoven"@nl ;
@@ -539,7 +540,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/b5644eaf70a46a09fa1c3e03274867c6>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Ameide (plaats)"@nl ;
     schema:name "Ameide"@nl ;
     geo:hasGeometry [ 
@@ -552,7 +553,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/fe789059e054f79e4c3bcd1b11efc2a8>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Lexmond (plaats)"@nl ;
     schema:name "Lexmond"@nl ;
     geo:hasGeometry [ 
@@ -565,7 +566,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/f835ef71b52fe028dcaee8790abf4b45>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Vianen (plaats)"@nl ;
     schema:name "Vianen"@nl ;
     geo:hasGeometry [ 
@@ -578,7 +579,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/6095143773896ebe2f897a724adb9dc5>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Hagestein (plaats)"@nl ;
     schema:name "Hagestein"@nl ;
     geo:hasGeometry [ 
@@ -591,7 +592,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/9ef6deecc4799c07a54c953f5721a5ed>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Everdingen (plaats)"@nl ;
     schema:name "Everdingen"@nl ;
     geo:hasGeometry [ 
@@ -604,7 +605,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/23568a40bacfb2d3617af23ecc54982b>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Oosterwijk (plaats)"@nl ;
     schema:name "Oosterwijk"@nl ;
     geo:hasGeometry [ 
@@ -617,7 +618,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/fefe908a1760a56236417d1f41b224c0>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Kedichem (plaats)"@nl ;
     schema:name "Kedichem"@nl ;
     geo:hasGeometry [ 
@@ -630,7 +631,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/bed148da65ebbaa28ed63af569e3a4de>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Vuren (plaats)"@nl ;
     schema:name "Vuren"@nl ;
     geo:hasGeometry [ 
@@ -643,7 +644,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/ded2262e650d333631f1bc12db81a2fd>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Dalem (plaats)"@nl ;
     schema:name "Dalem"@nl ;
     geo:hasGeometry [ 
@@ -656,7 +657,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/1fe2af9bef03a71c6ebdee104578b8f9>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Spijk (plaats)"@nl ;
     schema:name "Spijk"@nl ;
     geo:hasGeometry [ 
@@ -669,7 +670,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/5ee3c06dfd71df6edc77d921d365de19>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Herwijnen (plaats)"@nl ;
     schema:name "Herwijnen"@nl ;
     geo:hasGeometry [ 
@@ -682,7 +683,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/4dbd6828097de758d68cc2dacfd6cc7f>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Hoornaar (plaats)"@nl ;
     schema:name "Hoornaar"@nl ;
     geo:hasGeometry [ 
@@ -695,7 +696,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/dd41396ef045d15168927cf471e4b98a>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Hoogblokland (plaats)"@nl ;
     schema:name "Hoogblokland"@nl ;
     geo:hasGeometry [ 
@@ -708,7 +709,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/d82258d71a51197508c611e51c5602b6>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Nieuwland (plaats)"@nl ;
     schema:name "Nieuwland"@nl ;
     geo:hasGeometry [ 
@@ -721,7 +722,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/ad3762fb5fe06410bce65993bfc09043>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Leerbroek (plaats)"@nl ;
     schema:name "Leerbroek"@nl ;
     geo:hasGeometry [ 
@@ -734,7 +735,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
     
 <https://data.razu.nl/id/locatie/e1455a4027b8d2249c14593e637e602c>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Schoonrewoerd (plaats)"@nl ;
     schema:name "Schoonrewoerd"@nl ;
     geo:hasGeometry [ 
@@ -747,7 +748,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/c6f2a194d385859adf152c061e42a993>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Zijderveld (plaats)"@nl ;
     schema:name "Zijderveld"@nl ;
     geo:hasGeometry [ 
@@ -760,7 +761,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/e1590fef9f5d077bf60d9b34d023c182>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Gellicum (plaats)"@nl ;
     schema:name "Gellicum"@nl ;
     geo:hasGeometry [ 
@@ -773,7 +774,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/88919878dee9eb75ee069e114be5b657>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie  ;
     skos:prefLabel "Rumpt (plaats)"@nl ;
     schema:name "Rumpt"@nl ;
     geo:hasGeometry [ 
@@ -786,7 +787,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/1843211b63a7c09a26395ccfb92766f7>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie  ;
     skos:prefLabel "Acquoy (plaats)"@nl ;
     schema:name "Acquoy"@nl ;
     geo:hasGeometry [ 
@@ -799,7 +800,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/330613e635b98c939ce76afb61ca0818>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie  ;
     skos:prefLabel "Rhenoy (plaats)"@nl ;
     schema:name "Rhenoy"@nl ;
     geo:hasGeometry [ 
@@ -812,7 +813,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/66a0806c17e182dd0fbc6fbf488e6fde>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie  ;
     skos:prefLabel "Beesd (plaats)"@nl ;
     schema:name "Beesd"@nl ;
     geo:hasGeometry [ 
@@ -825,7 +826,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/258e2dc080f58e9c77e6077c5b6c604f>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie  ;
     skos:prefLabel "Meerkerk (plaats)"@nl ;
     schema:name "Meerkerk"@nl ;
     geo:hasGeometry [ 
@@ -838,7 +839,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/8c8ec9962dc0b4af128c71ad16f6bd58>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie  ;
     skos:prefLabel "Geldermalsen (plaats)"@nl ;
     schema:name "Geldermalsen"@nl ;
     geo:hasGeometry [ 
@@ -851,7 +852,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/b4a0335d5091e45ce0f0d8ad0b541862>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie  ;
     skos:prefLabel "Neerijnen (plaats)"@nl ;
     schema:name "Neerijnen"@nl ;
     geo:hasGeometry [ 
@@ -864,7 +865,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/3a25058fd74cee6a4f6a5b7c1a5263a9>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie  ;
     skos:prefLabel "Buren (plaats)"@nl ;
     schema:name "Buren"@nl ;
     geo:hasGeometry [ 
@@ -877,7 +878,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/9fdafafdc273158a716d67e41e1db1dd>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie  ;
     skos:prefLabel "Hei- en Boeicop (plaats)"@nl ;
     schema:name "Hei- en Boeicop"@nl ;
     geo:hasGeometry [ 
@@ -890,7 +891,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/3792e8ae3a3ee65602dd31b6020e5d12>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie  ;
     skos:prefLabel "Vreeswijk (plaats)"@nl ;
     schema:name "Vreeswijk"@nl ;
     geo:hasGeometry [ 
@@ -903,7 +904,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/3a182a55824e737e55369e8cafbe1e93>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie  ;
     skos:prefLabel "Culemborg (plaats)"@nl ;
     schema:name "Culemborg"@nl ;
     geo:hasGeometry [ 
@@ -916,7 +917,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/e81cc69de1f06c1553cbb8eb0a53b34b>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie  ;
     skos:prefLabel "Beusichem (plaats)"@nl ;
     schema:name "Beusichem"@nl ;
     geo:hasGeometry [ 
@@ -929,7 +930,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/5e80a86dacab2b369281fc988f3b763f>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie  ;
     skos:prefLabel "Asch (plaats)"@nl ;
     schema:name "Asch"@nl ;
     geo:hasGeometry [ 
@@ -942,7 +943,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/eea5778fc06b4857ea8baa7001e07fb5>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie  ;
     skos:prefLabel "Zoelmond (plaats)"@nl ;
     schema:name "Zoelmond"@nl ;
     geo:hasGeometry [ 
@@ -955,7 +956,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/8c0b8b6189ebbeff228cdacad31699b6>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie  ;
     skos:prefLabel "Ravenswaaij (plaats)"@nl ;
     schema:name "Ravenswaaij"@nl ;
     geo:hasGeometry [ 
@@ -968,7 +969,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/8bdc4241d0a3c27eb97d4e4c30d71735>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Rijswijk (plaats)"@nl ;
     schema:name "Rijswijk"@nl ;
     geo:hasGeometry [ 
@@ -981,7 +982,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/ae9e36c5c68c07b569ca9637efde8233>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie  ;
     skos:prefLabel "Tiel (plaats)"@nl ;
     schema:name "Tiel"@nl ;
     geo:hasGeometry [ 
@@ -994,7 +995,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/254186d2a3c953c2480349748f346c00>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie  ;
     skos:prefLabel "IJsselstein (plaats)"@nl ;
     schema:name "IJsselstein"@nl ;
     geo:hasGeometry [ 
@@ -1007,7 +1008,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/d606d81c962a9ef249f7f64a668b4416>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie  ;
     skos:prefLabel "Nieuwegein (plaats)"@nl ;
     schema:name "Nieuwegein"@nl ;
     geo:hasGeometry [ 
@@ -1020,7 +1021,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/f00bbf72c6735b859fd9a0720a16a2ac>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie  ;
     skos:prefLabel "Montfoort (plaats)"@nl ;
     schema:name "Montfoort"@nl ;
     geo:hasGeometry [ 
@@ -1033,7 +1034,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/9abf462b04cc111f94e1828f6b430666>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie  ;
     skos:prefLabel "Oudewater (plaats)"@nl ;
     schema:name "Oudewater"@nl ;
     geo:hasGeometry [ 
@@ -1046,7 +1047,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/8cdb906af987e7077a025b46d58e22bf>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie  ;
     skos:prefLabel "Lopik (plaats)"@nl ;
     schema:name "Lopik"@nl ;
     geo:hasGeometry [ 
@@ -1059,7 +1060,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/253c10a7234cd908e34a3af1f87a0961>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie  ;
     skos:prefLabel "Benschop (plaats)"@nl ;
     schema:name "Benschop"@nl ;
     geo:hasGeometry [ 
@@ -1072,7 +1073,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/aa9fe0c363011e154c5c959b627623aa>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie  ;
     skos:prefLabel "Zaltbommel (plaats)"@nl ;
     schema:name "Zaltbommel"@nl ;
     geo:hasGeometry [ 
@@ -1085,7 +1086,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/ca41927f3891927ad3d7aa5396ff886f>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie  ;
     skos:prefLabel "Vijfheerenlanden (regio)"@nl ;
     schema:name "Vijfheerenlanden"@nl ;
     geo:hasGeometry [ 
@@ -1098,7 +1099,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/4c47d6bb7333f93efd3a7fbda52e6614>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie  ;
     skos:prefLabel "Neder-Betuwe (regio)"@nl ;
     schema:name "Neder-Betuwe"@nl ;
     geo:hasGeometry [ 
@@ -1111,7 +1112,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/9862f7a7a0acaaebcfcb5780de282c49>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie  ;
     skos:prefLabel "Tielerwaard (regio)"@nl ;
     schema:name "Tielerwaard"@nl ;
     geo:hasGeometry [ 
@@ -1125,7 +1126,7 @@
 
 
 <https://data.razu.nl/id/locatie/28282503c6a8d9e3a1c702acc1cfad1e>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie  ;
     skos:prefLabel "Bommelerwaard (regio)"@nl ;
     schema:name "Bommelerwaard"@nl ;
     geo:hasGeometry [ 
@@ -1138,7 +1139,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/39490f0a449a6980ad69de4e533bce24>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie  ;
     skos:prefLabel "Kromme Rijnstreek (regio)"@nl ;
     schema:name "Kromme Rijnstreek"@nl ;
     geo:hasGeometry [ 
@@ -1151,7 +1152,7 @@
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/97622407cb0f2fe2bd8bb5b8c788340c>
-    a schema:Place, skos:Concept  ;
+    a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Alblasserwaard (regio)"@nl ;
     schema:name "Alblasserwaard"@nl;
     geo:hasGeometry [ 

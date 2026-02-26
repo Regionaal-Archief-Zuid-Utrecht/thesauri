@@ -4,54 +4,54 @@
 <https://data.razu.nl/id/betrokkenheid/8e5fc8818e2acb55185b9330d81a3b53>
   a skos:ConceptScheme ;
   skos:description "Begrippenlijst voor de aard van de betrokkenheid" ;
-  skos:prefLabel "Aard betrokkenheid" ;
+  skos:prefLabel "Aard betrokkenheid"@nl ;
   dcterms:hasFormat <https://context.data.razu.nl/betrokkenheid.json> .
 
 <https://data.razu.nl/id/betrokkenheid/6424a4b2a1b054d78ca1c9c69ca16016>
   a skos:Concept ;
   skos:note "De maker van een object" ;
   skos:inScheme <https://data.razu.nl/id/betrokkenheid/8e5fc8818e2acb55185b9330d81a3b53> ;
-  skos:prefLabel "Maker" .
+  skos:prefLabel "Maker"@nl .
 
 <https://data.razu.nl/id/betrokkenheid/a9c9d6add6b5219e9bae2bf1c73d35c5>
   a skos:Concept ;
   skos:note "De bewerker van een object" ;
   skos:inScheme <https://data.razu.nl/id/betrokkenheid/8e5fc8818e2acb55185b9330d81a3b53> ;
-  skos:prefLabel "Bewerker" .
+  skos:prefLabel "Bewerker"@nl .
 
 <https://data.razu.nl/id/betrokkenheid/cdb139d877138528c612fa16db731606>
   a skos:Concept ;
   skos:note "De redacteur van een tekst." ;
   skos:inScheme <https://data.razu.nl/id/betrokkenheid/8e5fc8818e2acb55185b9330d81a3b53> ;
-  skos:prefLabel "Redacteur" .
+  skos:prefLabel "Redacteur"@nl .
 
 <https://data.razu.nl/id/betrokkenheid/a5ddb6c3c136c956e99041df65b240a0>
   a skos:Concept ;
   skos:note "De ontwerper van een object." ;
   skos:inScheme <https://data.razu.nl/id/betrokkenheid/8e5fc8818e2acb55185b9330d81a3b53> ;
-  skos:prefLabel "Ontwerper" .
+  skos:prefLabel "Ontwerper"@nl .
 
 <https://data.razu.nl/id/betrokkenheid/4bb5da084da7cbef67d5f21bcb933af7>
   a skos:Concept ;
   skos:note "De ontwerper van gebouwen of vergelijkbare constructies." ;
   skos:inScheme <https://data.razu.nl/id/betrokkenheid/8e5fc8818e2acb55185b9330d81a3b53> ;
   skos:broader <https://data.razu.nl/id/betrokkenheid/a5ddb6c3c136c956e99041df65b240a0> ;
-  skos:prefLabel "Architect" .
+  skos:prefLabel "Architect"@nl .
 
 <https://data.razu.nl/id/betrokkenheid/943e61542466905ac02e3548cfe68713>
   a skos:Concept ;
   skos:note "De uitgever van een publicatie." ;
   skos:inScheme <https://data.razu.nl/id/betrokkenheid/8e5fc8818e2acb55185b9330d81a3b53> ;
-  skos:prefLabel "Uitgever" .
+  skos:prefLabel "Uitgever"@nl .
 
 <https://data.razu.nl/id/betrokkenheid/f50c9ee775b554530e89f1f79ed0f013>
   a skos:Concept ;
   skos:note "De curator van een collectie." ;
   skos:inScheme <https://data.razu.nl/id/betrokkenheid/8e5fc8818e2acb55185b9330d81a3b53> ;
-  skos:prefLabel "Curator" .
+  skos:prefLabel "Curator"@nl .
 
 <https://data.razu.nl/id/betrokkenheid/80535b4e36061f628427ba168cc4bd5c>
   a skos:Concept ;
   skos:note "Persoon of organisatie die een vergunning of besluit formeel verzoekt." ;
   skos:inScheme <https://data.razu.nl/id/betrokkenheid/8e5fc8818e2acb55185b9330d81a3b53> ;
-  skos:prefLabel "Aanvrager" .
+  skos:prefLabel "Aanvrager"@nl .

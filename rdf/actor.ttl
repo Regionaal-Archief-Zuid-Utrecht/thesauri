@@ -2,16 +2,17 @@
 @prefix schema: <http://schema.org/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-
+@prefix ldto: <https://data.razu.nl/def/ldto/> .
 
 <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e>
    a skos:ConceptScheme ;
    skos:prefLabel "Actoren"@nl ;
+   skos:prefLabel "Actors"@nl ;
    skos:description "Waardenlijst actoren"@nl ;
    dcterms:hasFormat <https://context.data.razu.nl/actor.json> .
 
 <https://data.razu.nl/id/actor/2bdb658a032a405d71c19159bd2bbb3a>
-   a schema:Organization, skos:Concept ;
+   a schema:Organization, skos:Concept, ldto:Actor  ;
    skos:prefLabel "Regionaal Archief Zuid-Utrecht"@nl ;
    skos:altLabel "RAZU"@nl ;
    skos:notation "k50907905" ;
@@ -22,14 +23,14 @@
    skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> .
 
 <https://data.razu.nl/id/actor/feae08aa6f9214231815e9ed7b3816d9>
-   a schema:Organization, skos:Concept ;
+   a schema:Organization, skos:Concept, ldto:Actor ;
    skos:prefLabel "Bestuur Regionaal Archief Zuid-Utrecht"@nl ;
    skos:altLabel "Bestuur RAZU"@nl ;
    skos:broader <https://data.razu.nl/id/actor/2bdb658a032a405d71c19159bd2bbb3a> ;
    skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> .
 
 <https://data.razu.nl/id/actor/424280985651f416dfb6a68ee8ee6c6a>
-   a schema:Organization, skos:Concept;
+   a schema:Organization, skos:Concept, ldto:Actor ;
    skos:prefLabel "Gemeente Houten"@nl ;
    skos:altLabel "Houten"@nl ;
    skos:notation "g0321" ;
@@ -40,7 +41,7 @@
    skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> .
 
  <https://data.razu.nl/id/actor/5c5e44886a1cd6f67f5ae63b270a0b24>
-   a schema:Organization, skos:Concept;
+   a schema:Organization, skos:Concept, ldto:Actor ;
    skos:prefLabel "Gemeente Bunnik"@nl ;
    skos:altLabel "Bunnik"@nl ;
    skos:notation "g0312" ;
@@ -51,7 +52,7 @@
    skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> . 
 
  <https://data.razu.nl/id/actor/124f62d77ae9d7beadab9dc57bced177>
-   a schema:Organization, skos:Concept;
+   a schema:Organization, skos:Concept, ldto:Actor ;
    skos:prefLabel "Gemeente Rhenen"@nl ;
    skos:altLabel "Rhenen"@nl ;
    skos:notation "g0340" ;
@@ -62,7 +63,7 @@
    skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> . 
 
  <https://data.razu.nl/id/actor/aafc151236a6978fdf1732dcadb53f2e>
-   a schema:Organization, skos:Concept;
+   a schema:Organization, skos:Concept, ldto:Actor ;
    skos:prefLabel "Gemeente Utrechtse Heuvelrug"@nl ;
    skos:altLabel "Utrechtse Heuvelrug"@nl ;
    skos:notation "g1581" ;
@@ -73,7 +74,7 @@
    skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> . 
 
  <https://data.razu.nl/id/actor/54c9a2e607988deae23c920dae4f43e4>
-   a schema:Organization, skos:Concept;
+   a schema:Organization, skos:Concept, ldto:Actor ;
    skos:prefLabel "Gemeente Wijk bij Duurstede"@nl ;
    skos:altLabel "Wijk bij Duurstede"@nl ;
    skos:notation "g0352" ;
@@ -84,7 +85,7 @@
    skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> .
 
  <https://data.razu.nl/id/actor/3abb33e02dffa48fe675358805df281b>
-   a schema:Organization, skos:Concept;
+   a schema:Organization, skos:Concept, ldto:Actor ;
    skos:prefLabel "Gemeente Vijfheerenlanden"@nl ;
    skos:altLabel "Vijfheerenlanden"@nl ;
    skos:notation "g1961" ;
@@ -95,32 +96,32 @@
    skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> .
 
 <https://data.razu.nl/id/actor/ccedcee97bc84c621b2a04f2731bf86c>
-   a schema:Organization, skos:Concept ;
+   a schema:Organization, skos:Concept, ldto:Actor ;
    skos:prefLabel "Delta-Phot Luchtfotografie Middelburg Holland"@nl ;
    rdfs:seeAlso <https://hdl.handle.net/10648/1118a373-4da4-4db3-aa9f-83fcd9c983ff> ;
    skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> .
 
 <https://data.razu.nl/id/actor/1bf73a1ffcfe062158a0f341b3615cbe>
-   a schema:Organization, skos:Concept ;
+   a schema:Organization, skos:Concept, ldto:Actor ;
    skos:prefLabel "Slagboom en Peeters"@nl ;
    schema:url <https://www.slagboomenpeeters.com/>;
    skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> .
 
 <https://data.razu.nl/id/actor/fdf07d26952c341ed9a70909eb3a4a73>
-   a schema:Organization, skos:Concept ;
+   a schema:Organization, skos:Concept, ldto:Actor ;
    skos:prefLabel "B. Ruitenbeek"@nl ;
    skos:altLabel "Drukkerij B. Ruitenbeek - Doorn"@nl ;
    skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> .
 
 <https://data.razu.nl/id/actor/ee065aecf4e6ecad10e8cd8bd9954a6f>
-   a schema:Organization, skos:Concept ;
+   a schema:Organization, skos:Concept, ldto:Actor ;
    skos:prefLabel "BDUmedia BV"@nl ;
    schema:url <https://bdumedia.nl/>;
    skos:broader <https://data.razu.nl/id/actor/3087aad1bee701908c4f821ebad860c6> ;
    skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> .
 
 <https://data.razu.nl/id/actor/3087aad1bee701908c4f821ebad860c6>
-   a schema:Organization, skos:Concept ;
+   a schema:Organization, skos:Concept, ldto:Actor ;
    skos:prefLabel "BDU"@nl;
    skos:altLabel "Koninklijke Barneveldse Drukkerij en Uitgeverij"@nl ;
    schema:url <http://www.bdu.nl/>;
@@ -128,20 +129,20 @@
    skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> .
 
 <https://data.razu.nl/id/actor/7334e8dd664c53f1ec683c4fef8b9927>
-   a schema:Organization, skos:Concept ;
+   a schema:Organization, skos:Concept, ldto:Actor ;
    skos:prefLabel "Kontakt Mediapartners"@nl;
    schema:url <https://kmp.nl/> ;
    skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> .
 
 <https://data.razu.nl/id/actor/b45727406af009edb49448c7291adce3>
-   a schema:Organization, skos:Concept ;
+   a schema:Organization, skos:Concept, ldto:Actor ;
    skos:prefLabel "DPG Media"@nl;
    schema:url <https://www.dpgmediagroup.com/> ;
    skos:exactMatch <http://www.wikidata.org/entity/Q63020424> ;
    skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> .
 
 <https://data.razu.nl/id/actor/e368b7e6159f0608c95bfdcc3bf14f7b>
-   a schema:Person, skos:Concept ;
+   a schema:Person, skos:Concept, ldto:Actor ;
    skos:prefLabel "Kors van Bennekom"@nl;
    schema:hasOccupation [
       a schema:Occupation ;
@@ -153,7 +154,7 @@
    skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> .
 
 <https://data.razu.nl/id/actor/64a133b9164ebcfb66a81795ea4ae606>
-   a schema:Person, skos:Concept ;
+   a schema:Person, skos:Concept, ldto:Actor ;
    skos:prefLabel "Joris van Bennekom"@nl;
    schema:hasOccupation [
       a schema:Occupation ;
@@ -165,7 +166,7 @@
    skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> .
 
 <https://data.razu.nl/id/actor/b3cf0d11fb1a4678ec4c353b261262ac>
-   a schema:Person, skos:Concept ;
+   a schema:Person, skos:Concept, ldto:Actor ;
    skos:prefLabel "Marrie Bot"@nl;
    schema:hasOccupation [
       a schema:Occupation ;
@@ -177,7 +178,7 @@
    skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> .
 
 <https://data.razu.nl/id/actor/d287145d55c36b8946c3c5e5b39befbe>
-   a schema:Person, skos:Concept ;
+   a schema:Person, skos:Concept, ldto:Actor ;
    skos:prefLabel "Gert Gesink"@nl;   
    schema:hasOccupation [
       a schema:Occupation ;
@@ -187,7 +188,7 @@
    skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> .
 
 <https://data.razu.nl/id/actor/54c0ba1fabcf6f09db71ce562392aa1d>
-   a schema:Person, skos:Concept ;
+   a schema:Person, skos:Concept, ldto:Actor ;
    skos:prefLabel "Klaas Koppe"@nl;
       schema:hasOccupation [
       a schema:Occupation ;
@@ -199,7 +200,7 @@
    skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> .
 
 <https://data.razu.nl/id/actor/a4e545cc04ce800f4c5e2968835194d0>
-   a schema:Person, skos:Concept ;
+   a schema:Person, skos:Concept, ldto:Actor ;
    skos:prefLabel "John Melskens"@nl;
    schema:hasOccupation [
       a schema:Occupation ;

@@ -3,27 +3,27 @@
 
 <https://data.razu.nl/id/waardering/461877e891f3a8680d2ec67636a1d8f2>
   a skos:ConceptScheme ;
-  skos:prefLabel "Waarderingen" ;
+  skos:prefLabel "Waarderingen"@nl ;
   skos:description "Deze begrippenlijst biedt de mogelijkheid om onderscheid te maken tussen blijvend te bewaren en tijdelijk te bewaren (oftewel op termijn te vernietigen) informatieobjecten." ;
   dcterms:hasFormat <https://context.data.razu.nl/waardering.json> .
 
 <https://data.razu.nl/id/waardering/f41d48ac0e70962eb37cae19e87c577f>
     a skos:Concept ;
-    skos:prefLabel "Blijvend te bewaren";
+    skos:prefLabel "Blijvend te bewaren"@nl;
     skos:note "Het Informatieobject dient blijvend bewaard te worden." ;
     skos:notation "B" ;
     skos:inScheme <https://data.razu.nl/id/waardering/461877e891f3a8680d2ec67636a1d8f2> .
 
 <https://data.razu.nl/id/waardering/d9917d3e8907b5dff6a395d3fec67ea5> 
     a skos:Concept ;
-    skos:prefLabel "Tijdelijk te bewaren" ;
+    skos:prefLabel "Tijdelijk te bewaren"@nl ;
     skos:note "Het Informatieobject dient tijdelijk bewaard te worden en na afloop van de bewaartermijn vernietigd te worden." ;
     skos:notation "V" ;
     skos:inScheme <https://data.razu.nl/id/waardering/461877e891f3a8680d2ec67636a1d8f2> .
 
 <https://data.razu.nl/id/waardering/bdfe9f07f92b21c3d0c21b8921520fcd>
     a skos:Concept ;
-    skos:prefLabel "Nader te bepalen" ;
+    skos:prefLabel "Nader te bepalen"@nl ;
     skos:note "Er is mogelijk een waardering, maar deze is niet vastgelegd als type waardering en is niet vastgelegd in de metagegevens." ;
     skos:notation "N" ;
     skos:inScheme <https://data.razu.nl/id/waardering/461877e891f3a8680d2ec67636a1d8f2> .

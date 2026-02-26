@@ -4,18 +4,18 @@
 <https://data.razu.nl/id/dekkingintijdtype/21002589a45f08117d01f556b9defa6e>
   a skos:ConceptScheme ;
   skos:description "Nadere typering van het tijdstip of de periode waar de inhoud van het informatieobject betrekking op heeft." ;
-  skos:prefLabel "Type dekking in tijd" ;
+  skos:prefLabel "Type dekking in tijd"@nl ;
   dcterms:hasFormat <https://context.data.razu.nl/dekkingintijdtype.json> .
 
 <https://data.razu.nl/id/dekkingintijdtype/24f59b9806eb9f5d04e5a2a9ae01955e>
   a skos:Concept ;
-  skos:prefLabel "Opname" ;
+  skos:prefLabel "Opname"@nl ;
   skos:note "Opnamedatum of -periode van inhoud van het informatieobject." ;
   skos:inScheme <https://data.razu.nl/id/dekkingintijdtype/21002589a45f08117d01f556b9defa6e> .
 
 <https://data.razu.nl/id/dekkingintijdtype/6647a78a0dc0920a5fa61df580cef511>
   a skos:Concept ;
-  skos:prefLabel "Van toepassing" ;
+  skos:prefLabel "Van toepassing"@nl ;
   skos:note "Periode waarin het object van toepassing is." ;
   skos:narrower <https://data.razu.nl/id/dekkingintijdtype/d2d98bd975f9f71657784f68554c7d2e> , 
     <https://data.razu.nl/id/dekkingintijdtype/6af1b285dd0e5c2e3387c93e44e6339b> ;
@@ -23,27 +23,27 @@
 
 <https://data.razu.nl/id/dekkingintijdtype/d2d98bd975f9f71657784f68554c7d2e>
   a skos:Concept ;
-  skos:prefLabel "Geldend" ;
+  skos:prefLabel "Geldend"@nl ;
   skos:note "Periode waarin bijvoorbeeld wet of besluit geldig is." ;
   skos:broader <https://data.razu.nl/id/dekkingintijdtype/6647a78a0dc0920a5fa61df580cef511> ;
   skos:inScheme <https://data.razu.nl/id/dekkingintijdtype/21002589a45f08117d01f556b9defa6e> .
 
 <https://data.razu.nl/id/dekkingintijdtype/6af1b285dd0e5c2e3387c93e44e6339b>
   a skos:Concept ;
-  skos:prefLabel "Looptijd" ;
+  skos:prefLabel "Looptijd"@nl ;
   skos:broader <https://data.razu.nl/id/dekkingintijdtype/6647a78a0dc0920a5fa61df580cef511> ;
   skos:note "Looptijd van bijvoorbeeld een vergunning, ontheffing, overeenkomst of CAO" ;
   skos:inScheme <https://data.razu.nl/id/dekkingintijdtype/21002589a45f08117d01f556b9defa6e> .
 
 <https://data.razu.nl/id/dekkingintijdtype/c8f575d14cf17c15461fc24c8eddb4f3>
   a skos:Concept ;
-  skos:prefLabel "Behandeling" ;
+  skos:prefLabel "Behandeling"@nl ;
   skos:note "Periode van behandeling van bijvoorbeeld een zaakdossier." ;
   skos:inScheme <https://data.razu.nl/id/dekkingintijdtype/21002589a45f08117d01f556b9defa6e> .
 
 <https://data.razu.nl/id/dekkingintijdtype/a3e30182626730af3b3c2a7071c58038>
   a skos:Concept ;
-  skos:prefLabel "Verschijningsperiode" ;
+  skos:prefLabel "Verschijningsperiode"@nl ;
   skos:note "Periode waarin een seriële publicatie werd uitgegeven." ;
   skos:broader <https://data.razu.nl/id/dekkingintijdtype/6647a78a0dc0920a5fa61df580cef511> ;
   skos:inScheme <https://data.razu.nl/id/dekkingintijdtype/21002589a45f08117d01f556b9defa6e> .
