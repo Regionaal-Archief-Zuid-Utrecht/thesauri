@@ -3,6 +3,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ldto: <https://data.razu.nl/def/ldto/> .
 
 @prefix ex: <http://www.example.com/#> .  
 
@@ -11,12 +12,13 @@ ex:ConceptShape a sh:NodeShape ;
     sh:targetClass skos:Concept ; 
     sh:property [
         sh:path skos:prefLabel ;
-        sh:or ( 
-            [ sh:datatype xsd:string ]  # Toestaan van plain literals zonder taal-tag
-            [ sh:datatype rdf:langString ]  # Toestaan van literals met taal-tag
-        ) ;
+        sh:datatype rdf:langString ;
         sh:minCount 1 ; 
-        sh:maxCount 1 ;
+        sh:qualifiedValueShape [
+            sh:datatype rdf:langString ;
+            sh:languageIn ( "nl" ) ;
+        ] ;
+        sh:qualifiedMinCount 1 ;
     ] ;
     sh:property [
         sh:path skos:inScheme ;
@@ -66,11 +68,10 @@ ex:ConceptSchemeShape a sh:NodeShape ;
             [ sh:datatype rdf:langString ]  
         ) ;
         sh:minCount 1 ; 
-        sh:maxCount 1 ;
     ] ;
     sh:property [
         sh:path skos:description ;
-        sh:or ( 
+        sh:or (  
             [ sh:datatype xsd:string ]  
             [ sh:datatype rdf:langString ]
         ) ;
@@ -86,3 +87,38 @@ ex:ConceptSchemeShape a sh:NodeShape ;
     sh:nodeKind sh:IRI ; 
     sh:pattern "^https://data\\.razu\\.nl/id/[^/]+/[^/]+$" .  # Verzekert dat de URI voldoet aan het patroon https://data.razu.nl/id/*/* .
 
+ex:ThingsInThisSchemeMustBeActor
+  a sh:NodeShape ;
+
+  sh:target [
+    a sh:SPARQLTarget ;
+    sh:select """
+      SELECT ?this WHERE {
+        ?this skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> .
+      }
+    """ ;
+  ] ;
+
+  sh:property [
+    sh:path rdf:type ;
+    sh:hasValue ldto:Actor ;
+    sh:minCount 1 ;
+  ] .
+
+ex:ThingsInThisSchemeMustBeLocatie
+  a sh:NodeShape ;
+
+  sh:target [
+    a sh:SPARQLTarget ;
+    sh:select """
+      SELECT ?this WHERE {
+        ?this skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43>  .
+      }
+    """ ;
+  ] ;
+
+  sh:property [
+    sh:path rdf:type ;
+    sh:hasValue ldto:Locatie ;
+    sh:minCount 1 ;
+  ] .
