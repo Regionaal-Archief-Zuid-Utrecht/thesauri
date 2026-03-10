@@ -53,9 +53,9 @@
 <https://data.razu.nl/id/eventtype/fixity-registration>
   a skos:Concept ;
   skos:prefLabel "Fixityregistratie"@nl ;
-  skos:prefLabel "Fixity regisatration"@en ;
-  skos:note "Registratie van de fixity van het bestand."@nl ;
-  skos:note "Registration of the file's fixity."@en ;
+  skos:prefLabel "Fixity registration"@en ;
+  skos:note "Registratie van de fixity van het bestand door gebruik van een checksum."@nl ;
+  skos:note "Registration of the file's fixity by using a checksum."@en ;
   skos:closeMatch <http://id.loc.gov/vocabulary/preservation/eventType/mes> ;
   skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
 
@@ -63,8 +63,8 @@
   a skos:Concept ;
   skos:prefLabel "Volledigheidscontrole"@nl ;
   skos:prefLabel "Completeness check"@en ;
-  skos:note "Controle op de volledigheid van het informatieobject."@nl ;
-  skos:note "Check of the completeness of the Information Object."@en ;
+  skos:note "Controle op de volledigheid van het Information Package, bijvoorbeeld aan de hand van een pakbon of manifest."@nl ;
+  skos:note "Check of the completeness of the Information Package, for example based on a packing list or manifest."@en ;
   skos:relatedMatch <http://id.loc.gov/vocabulary/preservation/eventType/val> ;
   skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
 
@@ -72,17 +72,27 @@
   a skos:Concept ;
   skos:prefLabel "Metadatacreatie"@nl ;
   skos:prefLabel "Metadata creation"@en ;
-  skos:note "Het aanmaken van metadata voor het informatieobject of bestand."@nl ;
-  skos:note "Creation of the metadata for the information object or file."@en ;
+  skos:note "Het aanmaken van het metadatabestand voor het informatieobject of bestand."@nl ;
+  skos:note "Creation of the metadata file for the information object or file."@en ;
   skos:relatedMatch <http://id.loc.gov/vocabulary/preservation/eventType/mee> ;
+  skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
+
+
+<https://data.razu.nl/id/eventtype/metadata-edit>
+  a skos:Concept ;
+  skos:prefLabel "Metadatawijziging"@nl ;
+  skos:prefLabel "Metadata edit"@en ;
+  skos:note "Toevoegen, verwijderen of wijzigen van metadata voor een object in een metadatabestand."@nl ;
+  skos:note "Adding, deleting or changing metadata for an object in a metadata file."@en ;
+  skos:relatedMatch <http://id.loc.gov/vocabulary/preservation/eventType/mem> ;
   skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
 
 <https://data.razu.nl/id/eventtype/fixity-check>
   a skos:Concept ;
   skos:prefLabel "Fixitycontrole"@nl ;
   skos:prefLabel "Fixity check"@en ;
-  skos:note "Controle op de fixity van het bestand."@nl ;
-  skos:note " Check of the file's fixity."@en ;
+  skos:note "Controle op de fixity van een bestand aan de hand van een checksum."@nl ;
+  skos:note "Check of a file's fixity by using a checksum."@en ;
   skos:closeMatch <http://id.loc.gov/vocabulary/preservation/eventType/fix> ;
   skos:inScheme <https://data.razu.nl/id/eventtype/909816898aef98c8351dbf9bd4563aa9> .
 
