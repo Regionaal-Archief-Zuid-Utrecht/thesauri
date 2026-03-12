@@ -25,7 +25,6 @@
     skos:exactMatch <http://www.wikidata.org/entity/Q2380583> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
-
 <https://data.razu.nl/id/locatie/86f6a4ab514cb29561cb65197cd233f3>
     a schema:Place, skos:Concept, ldto:Locatie ;
     skos:prefLabel "Brakel (plaats)"@nl ;
@@ -52,6 +51,21 @@
     ] ;
     skos:exactMatch <http://www.wikidata.org/entity/Q1087187> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
+
+
+<https://data.razu.nl/id/locatie/84f43a0c8c5fc771958291f7d8feed6b>
+    a schema:Place, skos:Concept, ldto:Locatie ;
+    skos:prefLabel "Elst (plaats in Utrecht)"@nl ;
+    schema:name "Elst"@nl ;
+    geo:hasGeometry [ 
+        a geo:Geometry ;
+        geo:asWKT "POINT(5.50 51.99)"^^geo:wktLiteral ;
+        geo:crs ogc:CRS84 ;
+        schema:description "Een representatief punt in de plaats Elst (Utrecht)"@nl 
+    ] ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q130622> ;
+    skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
+
 
 <https://data.razu.nl/id/locatie/ae2b4db3b488bdb17dce722a5eb3d224>
     a schema:Place, skos:Concept, ldto:Locatie ;
@@ -90,6 +104,34 @@
         schema:description "Een representatief punt in de plaats Hellouw"@nl 
     ] ;
     skos:exactMatch <http://www.wikidata.org/entity/Q2148331> ;
+    skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
+
+
+<https://data.razu.nl/id/locatie/eab5fdf0e257bb7a4725707ea201f955>
+    a schema:Place, skos:Concept, ldto:Locatie ;
+    skos:prefLabel "Hoef en Haag (plaats)"@nl ;
+    schema:name "Hoef en Haag"@nl ;
+    geo:hasGeometry [ 
+        a geo:Geometry ;
+        geo:asWKT "POINT(5.12 51.99)"^^geo:wktLiteral ;
+        geo:crs ogc:CRS84 ;
+        schema:description "Een representatief punt in de plaats Hoef en Haag"@nl 
+    ] ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q21696900> ;
+    skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
+
+
+<https://data.razu.nl/id/locatie/0bcf61e5515a9ec5aafa61792d2090bd>
+    a schema:Place, skos:Concept, ldto:Locatie ;
+    skos:prefLabel "Ingen (plaats)"@nl ;
+    schema:name "Ingen"@nl ;
+    geo:hasGeometry [ 
+        a geo:Geometry ;
+        geo:asWKT "POINT(5.486 51.959)"^^geo:wktLiteral ;
+        geo:crs ogc:CRS84 ;
+        schema:description "Een representatief punt in de plaats Ingen"@nl 
+    ] ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q3150932> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/e3bf4e4eeb0bffe26dc17cc47602aa7c>
@@ -171,6 +213,32 @@
     skos:exactMatch <http://www.wikidata.org/entity/Q2098932> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
+<https://data.razu.nl/id/locatie/d945111126485ef92aada7fd732e3563>
+    a schema:Place, skos:Concept, ldto:Locatie  ;
+    skos:prefLabel "Overberg (plaats)"@nl ;
+    schema:name "Overberg"@nl ;
+    geo:hasGeometry [ 
+        a geo:Geometry ;
+        geo:asWKT "POINT(5.498 52.039)"^^geo:wktLiteral ;
+        geo:crs ogc:CRS84 ;
+        schema:description "Een representatief punt in de plaats Overberg"@nl 
+    ] ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q3358892> ;
+    skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
+
+
+<https://data.razu.nl/id/locatie/d7f1f5a374d4d95fadd30cfee00da1fc3>
+    a schema:Place, skos:Concept, ldto:Locatie  ;
+    skos:prefLabel "Overlangbroek (plaats)"@nl ;
+    schema:name "Overlangbroek"@nl ;
+    geo:hasGeometry [ 
+        a geo:Geometry ;
+        geo:asWKT "POINT(5.384 51.991)"^^geo:wktLiteral ;
+        geo:crs ogc:CRS84 ;
+        schema:description "Een representatief punt in de plaats Overlangbroek"@nl 
+    ] ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q2579504> ;
+    skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/a31c18cbca2ebdc7f2b05e02df638d9b>
     a schema:Place, skos:Concept, ldto:Locatie ;
@@ -184,7 +252,6 @@
     ] ;
     skos:exactMatch <http://www.wikidata.org/entity/Q3112503> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
-
 
 <https://data.razu.nl/id/locatie/a5fced58fb1a5d570397bcb7198cdab1>
     a schema:Place, skos:Concept, ldto:Locatie ;
@@ -316,6 +383,7 @@
     ] ;
     skos:exactMatch <http://www.wikidata.org/entity/Q1616311> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
+
 
 <https://data.razu.nl/id/locatie/a56c9792ea7d0614d0770b9bd46e3e56>
     a schema:Place, skos:Concept, ldto:Locatie ;
@@ -970,7 +1038,7 @@
 
 <https://data.razu.nl/id/locatie/8bdc4241d0a3c27eb97d4e4c30d71735>
     a schema:Place, skos:Concept, ldto:Locatie ;
-    skos:prefLabel "Rijswijk (plaats)"@nl ;
+    skos:prefLabel "Rijswijk (plaats in Gelderland)"@nl ;
     schema:name "Rijswijk"@nl ;
     geo:hasGeometry [ 
         a geo:Geometry ;
