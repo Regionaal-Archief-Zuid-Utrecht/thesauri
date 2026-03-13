@@ -551,6 +551,21 @@
     skos:exactMatch <http://www.wikidata.org/entity/Q2677372> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
+<https://data.razu.nl/id/locatie/d606d81c962a9ef249f7f64a668b4416>
+    a schema:Place, skos:Concept, ldto:Locatie, bag:Woonplaats ;
+    skos:prefLabel "Nieuwegein (plaats)"@nl ;
+    schema:name "Nieuwegein"@nl ;
+    geo:hasGeometry [ 
+        a geo:Geometry ;
+        geo:asWKT "POINT(5.0919 52.0314)"^^geo:wktLiteral ;
+        geo:crs ogc:CRS84 ;
+        schema:description "Een representatief punt in de plaats Nieuwegein"@nl 
+    ] ;
+    bag:identificatie "1108";
+    skos:exactMatch <http://bag.basisregistraties.overheid.nl/bag/id/woonplaats/1108> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q10050> ;
+    skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
+
 <https://data.razu.nl/id/locatie/d82258d71a51197508c611e51c5602b6>
     a schema:Place, skos:Concept, ldto:Locatie, bag:Woonplaats ;
     skos:prefLabel "Nieuwland (plaats)"@nl ;
@@ -679,6 +694,22 @@
     skos:exactMatch <http://bag.basisregistraties.overheid.nl/bag/id/woonplaats/1399> ;
     skos:exactMatch <http://www.wikidata.org/entity/Q33475264> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
+
+<https://data.razu.nl/id/locatie/8bdc4241d0a3c27eb97d4e4c30d71735>
+    a schema:Place, skos:Concept, ldto:Locatie, bag:Woonplaats ;
+    skos:prefLabel "Rijswijk (plaats in Gelderland)"@nl ;
+    schema:name "Rijswijk"@nl ;
+    geo:hasGeometry [ 
+        a geo:Geometry ;
+        geo:asWKT "POINT(5.3564 51.9575)"^^geo:wktLiteral ;
+        geo:crs ogc:CRS84 ;
+        schema:description "Een representatief punt in de plaats Rijswijk"@nl 
+    ] ;
+    bag:identificatie "3383" ;
+    skos:exactMatch <http://bag.basisregistraties.overheid.nl/bag/id/woonplaats/3383> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q1812494> ;
+    skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
+
 
 <https://data.razu.nl/id/locatie/ab8f1762b5e7bb47da861056a230d940>
     a schema:Place, skos:Concept, ldto:Locatie, bag:Woonplaats ;
@@ -1126,19 +1157,6 @@
     skos:exactMatch <http://www.wikidata.org/entity/Q597792> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
-<https://data.razu.nl/id/locatie/8bdc4241d0a3c27eb97d4e4c30d71735>
-    a schema:Place, skos:Concept, ldto:Locatie ;
-    skos:prefLabel "Rijswijk (plaats in Gelderland)"@nl ;
-    schema:name "Rijswijk"@nl ;
-    geo:hasGeometry [ 
-        a geo:Geometry ;
-        geo:asWKT "POINT(5.3564 51.9575)"^^geo:wktLiteral ;
-        geo:crs ogc:CRS84 ;
-        schema:description "Een representatief punt in de plaats Rijswijk"@nl 
-    ] ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q1812494> ;
-    skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
-
 <https://data.razu.nl/id/locatie/ae9e36c5c68c07b569ca9637efde8233>
     a schema:Place, skos:Concept, ldto:Locatie  ;
     skos:prefLabel "Tiel (plaats)"@nl ;
@@ -1163,19 +1181,6 @@
         schema:description "Een representatief punt in de plaats IJselstein"@nl 
     ] ;
     skos:exactMatch <http://www.wikidata.org/entity/Q10045> ;
-    skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
-
-<https://data.razu.nl/id/locatie/d606d81c962a9ef249f7f64a668b4416>
-    a schema:Place, skos:Concept, ldto:Locatie  ;
-    skos:prefLabel "Nieuwegein (plaats)"@nl ;
-    schema:name "Nieuwegein"@nl ;
-    geo:hasGeometry [ 
-        a geo:Geometry ;
-        geo:asWKT "POINT(5.0919 52.0314)"^^geo:wktLiteral ;
-        geo:crs ogc:CRS84 ;
-        schema:description "Een representatief punt in de plaats Nieuwegein"@nl 
-    ] ;
-    skos:exactMatch <http://www.wikidata.org/entity/Q10050> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
 <https://data.razu.nl/id/locatie/f00bbf72c6735b859fd9a0720a16a2ac>
