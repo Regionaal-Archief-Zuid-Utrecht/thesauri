@@ -3,6 +3,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix bag: <http://bag.basisregistraties.overheid.nl/def/bag#> . 
 @prefix ldto: <https://data.razu.nl/def/ldto/> .
 
 @prefix ex: <http://www.example.com/#> .  
@@ -57,6 +58,21 @@ ex:ConceptShape a sh:NodeShape ;
     ] ;
     sh:nodeKind sh:IRI ; 
     sh:pattern "^https://data\\.razu\\.nl/id/[^/]+/[^/]+$" .  # Verzekert dat de URI voldoet aan het patroon https://data.razu.nl/id/*/* .
+
+# Shape voor bag:Woonplaats entiteiten
+ex:WoonplaatsShape a sh:NodeShape ;
+    sh:targetClass bag:Woonplaats ; 
+    sh:property [
+        sh:path bag:identificatie ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ; 
+        sh:maxCount 1 ;  
+    ] ;
+    sh:property [
+        sh:path skos:exactMatch ;
+        sh:nodeKind sh:IRI ; 
+        sh:minCount 1 ; 
+    ] .
 
 # Shape voor skos:ConceptScheme entiteiten
 ex:ConceptSchemeShape a sh:NodeShape ;
