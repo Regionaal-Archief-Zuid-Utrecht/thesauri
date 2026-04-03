@@ -137,3 +137,24 @@
   skos:prefLabel "Bouwdossier"@nl ;
   skos:definition "Een verzameling van documenten over de aanvraag, beoordeling en uitvoering van een bouwproject."@nl ;
   skos:inScheme <https://data.razu.nl/id/soort/bbc3a6702c26cc0f1ca33eb5e80c9d4a> .
+
+<https://data.razu.nl/id/soort/b9e9be259c9c122c5a27bea9f53633d3> 
+  a skos:Concept ;
+  skos:prefLabel "Aanvraag vergunning"@nl ;
+  skos:definition "Een aanvraag voor een vergunning."@nl ;
+  skos:inScheme <https://data.razu.nl/id/soort/bbc3a6702c26cc0f1ca33eb5e80c9d4a> .
+
+<https://data.razu.nl/id/soort/67becbe183d87f424647aea18296da40> 
+  a skos:Concept ;
+  skos:prefLabel "Vergunning"@nl ;
+  skos:definition "Een vergunning of beschikking."@nl ;
+  skos:inScheme <https://data.razu.nl/id/soort/bbc3a6702c26cc0f1ca33eb5e80c9d4a> .
+
+<https://data.razu.nl/id/soort/6c83ee878ab36b68facbf10bf20b2819> 
+  a skos:Concept ;
+  skos:prefLabel "Bouwvergunning"@nl ;
+  skos:definition "Een bouwvergunning."@nl ;
+  skos:broader <https://data.razu.nl/id/soort/67becbe183d87f424647aea18296da40> ;
+  skos:inScheme <https://data.razu.nl/id/soort/bbc3a6702c26cc0f1ca33eb5e80c9d4a> .
+
+
