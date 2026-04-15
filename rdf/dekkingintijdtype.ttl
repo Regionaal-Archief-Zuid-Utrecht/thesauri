@@ -48,5 +48,9 @@
   skos:broader <https://data.razu.nl/id/dekkingintijdtype/6647a78a0dc0920a5fa61df580cef511> ;
   skos:inScheme <https://data.razu.nl/id/dekkingintijdtype/21002589a45f08117d01f556b9defa6e> .
 
-
-
+<https://data.razu.nl/id/dekkingintijdtype/70a06aa707497017b24a599d24a4f9c9>
+  a skos:Concept ;
+  skos:prefLabel "Tijdsbestek"@nl ;
+  skos:note "Periode die door een object wordt gedekt, bijvoorbeeld de periode die een archief of dossier begrensd." ;
+  skos:broader <https://data.razu.nl/id/dekkingintijdtype/6647a78a0dc0920a5fa61df580cef511> ;
+    skos:inScheme <https://data.razu.nl/id/dekkingintijdtype/21002589a45f08117d01f556b9defa6e> .
