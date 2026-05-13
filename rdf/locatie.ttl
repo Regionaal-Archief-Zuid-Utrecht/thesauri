@@ -697,7 +697,7 @@
 
 <https://data.razu.nl/id/locatie/8bdc4241d0a3c27eb97d4e4c30d71735>
     a schema:Place, skos:Concept, ldto:Locatie, bag:Woonplaats ;
-    skos:prefLabel "Rijswijk (plaats in Gelderland)"@nl ;
+    skos:prefLabel "Rijswijk (Gelderland)"@nl ;
     schema:name "Rijswijk"@nl ;
     geo:hasGeometry [ 
         a geo:Geometry ;
