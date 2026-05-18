@@ -23,6 +23,9 @@
         <https://data.razu.nl/id/locatie/2f3d1d59d29f6f07ac921eb57fe37fbc>, # "Driebergen"
         <https://data.razu.nl/id/locatie/f43ef3ffcb8654ff73a672a05b88b404>, # "Langbroek"
         <https://data.razu.nl/id/locatie/f5ef414df02e8a28bb60055ff6e1c151>, # "Cothen"
+        <https://data.razu.nl/id/locatie/152aa32fa903d3502880686e0d362668>, # Leersum
+        <https://data.razu.nl/id/locatie/dfc6eee060e002fcd5ed441380e2f915>, # Rhenen
+        <https://data.razu.nl/id/locatie/29b0e0e01d257d3ece50e425d9b1c1b8>, # Veenendaal
         <https://data.razu.nl/id/locatie/d5acdcc4f873045aaefd2a31af723153>; # "Wijk bij Duurstede" 
     schema:temporalCoverage "1875/" ; 
     schema:inLanguage "nl" ;

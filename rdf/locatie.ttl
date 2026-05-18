@@ -785,6 +785,21 @@
     skos:exactMatch <http://www.wikidata.org/entity/Q2139917> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
+<https://data.razu.nl/id/locatie/29b0e0e01d257d3ece50e425d9b1c1b8>
+    a schema:Place, skos:Concept, ldto:Locatie, bag:Woonplaats ;
+    skos:prefLabel "Veenendaal (plaats)"@nl ;
+    schema:name "Veenendaal"@nl ;
+    geo:hasGeometry [ 
+        a geo:Geometry ;
+        geo:asWKT "POINT(5.555 52.0250)"^^geo:wktLiteral ;
+        geo:crs ogc:CRS84 ;
+        schema:description "Een representatief punt in de plaats Veenendaal"@nl 
+    ] ;
+    bag:identificatie "2048";
+    skos:exactMatch <http://bag.basisregistraties.overheid.nl/bag/id/woonplaats/2048> ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q1840> ;
+    skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
+
 <https://data.razu.nl/id/locatie/f835ef71b52fe028dcaee8790abf4b45>
     a schema:Place, skos:Concept, ldto:Locatie, bag:Woonplaats ;
     skos:prefLabel "Vianen (plaats)"@nl ;
