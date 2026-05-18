@@ -163,7 +163,7 @@
   skos:definition "Een bouw- of constructietekening"@nl ;
   skos:inScheme <https://data.razu.nl/id/soort/bbc3a6702c26cc0f1ca33eb5e80c9d4a> .
 
-<https://data.razu.nl/id/soort/22b96f5bcaec05c55fd50039022db638>  # Vervang door een echte UUID
+<https://data.razu.nl/id/soort/22b96f5bcaec05c55fd50039022db638>
    a skos:Concept ;
    skos:prefLabel "Document - niet nader gespecificeerd"@nl ;
    skos:definition "Een document waarvan het type (nog) niet is geïdentificeerd."@nl ;
