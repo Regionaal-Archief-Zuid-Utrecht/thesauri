@@ -62,7 +62,7 @@
     schema:name "Arkel"@nl ;
     geo:hasGeometry [ 
         a geo:Geometry ;
-        geo:asWKT "POINT(4.50 51.86)"^^geo:wktLiteral ;
+        geo:asWKT "POINT(4.99 51.864)"^^geo:wktLiteral ;
         geo:crs ogc:CRS84 ;
         schema:description "Een representatief punt in de plaats Arkel"@nl 
     ] ;
