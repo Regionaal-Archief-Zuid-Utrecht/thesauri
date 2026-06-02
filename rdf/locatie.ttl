@@ -37,6 +37,7 @@
         schema:description "Een representatief punt in de plaats Ameide"@nl 
     ] ;
     bag:identificatie "2106";
+    schema:isPartOf <https://data.razu.nl/id/actor/3abb33e02dffa48fe675358805df281b> ;
     skos:exactMatch <http://bag.basisregistraties.overheid.nl/bag/id/woonplaats/2106> ;
     skos:exactMatch <http://www.wikidata.org/entity/Q2842582> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
@@ -52,6 +53,7 @@
         schema:description "Een representatief punt in de plaats Amerongen"@nl 
     ] ;
     bag:identificatie "3337";
+    schema:isPartOf  <https://data.razu.nl/id/actor/aafc151236a6978fdf1732dcadb53f2e> ;
     skos:exactMatch <http://bag.basisregistraties.overheid.nl/bag/id/woonplaats/3337> ;
     skos:exactMatch <http://www.wikidata.org/entity/Q1615400> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
@@ -119,6 +121,7 @@
         schema:description "Een representatief punt in de plaats Bunnik"@nl 
     ] ;
     bag:identificatie "2603";
+    schema:isPartOf  <https://data.razu.nl/id/actor/5c5e44886a1cd6f67f5ae63b270a0b24> ;
     skos:exactMatch <http://bag.basisregistraties.overheid.nl/bag/id/woonplaats/2603> ;
     skos:exactMatch <http://www.wikidata.org/entity/Q937679> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
@@ -147,6 +150,7 @@
         schema:description "Een representatief punt in de plaats Cothen"@nl 
     ] ;
     bag:identificatie "1304";
+    schema:isPartOf  <https://data.razu.nl/id/actor/54c9a2e607988deae23c920dae4f43e4> ;
     skos:exactMatch <http://bag.basisregistraties.overheid.nl/bag/id/woonplaats/1304> ;
     skos:exactMatch <http://www.wikidata.org/entity/Q2860067> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
@@ -162,6 +166,7 @@
         schema:description "Een representatief punt in de plaats Doorn"@nl 
     ] ;
     bag:identificatie "3339";
+    schema:isPartOf  <https://data.razu.nl/id/actor/aafc151236a6978fdf1732dcadb53f2e> ;
     skos:exactMatch <http://bag.basisregistraties.overheid.nl/bag/id/woonplaats/3339> ;
     skos:exactMatch <http://www.wikidata.org/entity/Q1615161> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
@@ -176,6 +181,7 @@
         geo:crs ogc:CRS84 ;
         schema:description "Een representatief punt in de plaats Driebergen"@nl 
     ] ;
+    schema:isPartOf <https://data.razu.nl/id/actor/aafc151236a6978fdf1732dcadb53f2e> ;
     skos:exactMatch <http://www.wikidata.org/entity/Q1899314> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
@@ -233,6 +239,7 @@
         schema:description "Een representatief punt in de plaats Everdingen"@nl 
     ] ;
     bag:identificatie "2840";
+    schema:isPartOf  <https://data.razu.nl/id/actor/3abb33e02dffa48fe675358805df281b> ;
     skos:exactMatch <http://bag.basisregistraties.overheid.nl/bag/id/woonplaats/2840> ;
     skos:exactMatch <http://www.wikidata.org/entity/Q2937766> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
@@ -289,6 +296,7 @@
         schema:description "Een representatief punt in de plaats Hagestein"@nl 
     ] ;
     bag:identificatie "3625";
+    schema:isPartOf  <https://data.razu.nl/id/actor/3abb33e02dffa48fe675358805df281b> ;
     skos:exactMatch <http://bag.basisregistraties.overheid.nl/bag/id/woonplaats/3625> ;
     skos:exactMatch <http://www.wikidata.org/entity/Q174398> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
@@ -304,6 +312,7 @@
         schema:description "Een representatief punt in de plaats Hei- en Boeicop"@nl 
     ] ;
     bag:identificatie "2109";
+    schema:isPartOf  <https://data.razu.nl/id/actor/3abb33e02dffa48fe675358805df281b> ;
     skos:exactMatch <http://bag.basisregistraties.overheid.nl/bag/id/woonplaats/2109> ;
     skos:exactMatch <http://www.wikidata.org/entity/Q961578> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
@@ -347,6 +356,7 @@
         schema:description "Een representatief punt in de plaats Houten."@nl 
     ] ;
     bag:identificatie "2053 ";
+    schema:isPartOf <https://data.razu.nl/id/actor/424280985651f416dfb6a68ee8ee6c6a> ;
     skos:exactMatch <http://bag.basisregistraties.overheid.nl/bag/id/woonplaats/2053> ;
     skos:exactMatch <http://www.wikidata.org/entity/Q33446293> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
@@ -375,6 +385,7 @@
         schema:description "Een representatief punt in de plaats Kedichem"@nl 
     ] ;
     bag:identificatie "2273";
+    schema:isPartOf  <https://data.razu.nl/id/actor/3abb33e02dffa48fe675358805df281b> ;
     skos:exactMatch <http://bag.basisregistraties.overheid.nl/bag/id/woonplaats/2273> ;
     skos:exactMatch <http://www.wikidata.org/entity/Q2609314> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
@@ -403,6 +414,7 @@
         schema:description "Een representatief punt in de plaats Langbroek"@nl 
     ] ;
     bag:identificatie "1303";
+    schema:isPartOf  <https://data.razu.nl/id/actor/54c9a2e607988deae23c920dae4f43e4> ;
     skos:exactMatch <http://bag.basisregistraties.overheid.nl/bag/id/woonplaats/1303> ;
     skos:exactMatch <http://www.wikidata.org/entity/Q3030117> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
@@ -433,6 +445,7 @@
         schema:description "Een representatief punt in de plaats Leerdam"@nl 
     ] ;
     bag:identificatie "2271";
+    schema:isPartOf <https://data.razu.nl/id/actor/3abb33e02dffa48fe675358805df281b> ;
     skos:exactMatch <http://bag.basisregistraties.overheid.nl/bag/id/woonplaats/2271> ;
     skos:exactMatch <http://www.wikidata.org/entity/Q388575> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
@@ -448,6 +461,7 @@
         schema:description "Een representatief punt in de plaats Leersum"@nl 
     ] ;
     bag:identificatie "3587";
+    schema:isPartOf  <https://data.razu.nl/id/actor/aafc151236a6978fdf1732dcadb53f2e> ;
     skos:exactMatch <http://bag.basisregistraties.overheid.nl/bag/id/woonplaats/3587> ;
     skos:exactMatch <http://www.wikidata.org/entity/Q81177> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
@@ -463,6 +477,7 @@
         schema:description "Een representatief punt in de plaats Lexmond"@nl 
     ] ;
     bag:identificatie "2105";
+    schema:isPartOf <https://data.razu.nl/id/actor/3abb33e02dffa48fe675358805df281b> ;
     skos:exactMatch <http://bag.basisregistraties.overheid.nl/bag/id/woonplaats/2105> ;
     skos:exactMatch <http://www.wikidata.org/entity/Q3026650> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
@@ -478,6 +493,7 @@
         schema:description "Een representatief punt in de plaats Maarn"@nl 
     ] ;
     bag:identificatie "3340";
+    schema:isPartOf  <https://data.razu.nl/id/actor/aafc151236a6978fdf1732dcadb53f2e> ;
     skos:exactMatch <http://bag.basisregistraties.overheid.nl/bag/id/woonplaats/3340> ;
     skos:exactMatch <http://www.wikidata.org/entity/Q1616311> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
@@ -521,6 +537,7 @@
         schema:description "Een representatief punt in de plaats Meerkerk"@nl 
     ] ;
     bag:identificatie "2108";
+    schema:isPartOf <https://data.razu.nl/id/actor/3abb33e02dffa48fe675358805df281b> ;
     skos:exactMatch <http://bag.basisregistraties.overheid.nl/bag/id/woonplaats/2108> ;
     skos:exactMatch <http://www.wikidata.org/entity/Q2774284> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
@@ -577,6 +594,7 @@
         schema:description "Een representatief punt in de plaats Nieuwland"@nl 
     ] ;
     bag:identificatie "2111";
+    schema:isPartOf  <https://data.razu.nl/id/actor/3abb33e02dffa48fe675358805df281b> ;
     skos:exactMatch <http://bag.basisregistraties.overheid.nl/bag/id/woonplaats/2111> ;
     skos:exactMatch <http://www.wikidata.org/entity/Q1911155> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
@@ -592,6 +610,7 @@
         schema:description "Een representatief punt in de plaats Odijk"@nl 
     ] ;
     bag:identificatie "2604";
+    schema:isPartOf  <https://data.razu.nl/id/actor/5c5e44886a1cd6f67f5ae63b270a0b24> ;
     skos:exactMatch <http://bag.basisregistraties.overheid.nl/bag/id/woonplaats/2604> ;
     skos:exactMatch <http://www.wikidata.org/entity/Q2124349> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
@@ -691,6 +710,7 @@
         schema:description "Een representatief punt in de plaats Rhenen"@nl 
     ] ;
     bag:identificatie "1399";
+    schema:isPartOf  <https://data.razu.nl/id/actor/124f62d77ae9d7beadab9dc57bced177> ;
     skos:exactMatch <http://bag.basisregistraties.overheid.nl/bag/id/woonplaats/1399> ;
     skos:exactMatch <http://www.wikidata.org/entity/Q33475264> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
@@ -737,6 +757,7 @@
         schema:description "Een representatief punt in de plaats Schoonrewoerd"@nl 
     ] ;
     bag:identificatie "2272";
+    schema:isPartOf  <https://data.razu.nl/id/actor/3abb33e02dffa48fe675358805df281b> ;
     skos:exactMatch <http://bag.basisregistraties.overheid.nl/bag/id/woonplaats/2272> ;
     skos:exactMatch <http://www.wikidata.org/entity/Q3113902> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
@@ -753,6 +774,7 @@
         schema:description "Een representatief punt in de plaats Tienhoven aam de Lek"@nl 
     ] ;
     bag:identificatie "2107";
+    schema:isPartOf <https://data.razu.nl/id/actor/3abb33e02dffa48fe675358805df281b> ;
     skos:exactMatch <http://bag.basisregistraties.overheid.nl/bag/id/woonplaats/2107> ;
     skos:exactMatch <http://www.wikidata.org/entity/Q2575504> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
@@ -811,6 +833,7 @@
         schema:description "Een representatief punt in de plaats Vianen"@nl 
     ] ;
     bag:identificatie "2843";
+    schema:isPartOf  <https://data.razu.nl/id/actor/3abb33e02dffa48fe675358805df281b> ;
     skos:exactMatch <http://bag.basisregistraties.overheid.nl/bag/id/woonplaats/2843> ;
     skos:exactMatch <http://www.wikidata.org/entity/Q10052> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
@@ -839,6 +862,7 @@
         schema:description "Een representatief punt in de plaats Werkhoven"@nl 
     ] ;
     bag:identificatie "2605";
+    schema:isPartOf  <https://data.razu.nl/id/actor/5c5e44886a1cd6f67f5ae63b270a0b24> ;
     skos:exactMatch <http://bag.basisregistraties.overheid.nl/bag/id/woonplaats/2605> ;
     skos:exactMatch <http://www.wikidata.org/entity/Q2541237> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
@@ -854,6 +878,7 @@
         schema:description "Een representatief punt in de plaats Wijk bij Duurstede"@nl 
     ] ;
     bag:identificatie "1302";
+    schema:isPartOf  <https://data.razu.nl/id/actor/54c9a2e607988deae23c920dae4f43e4> ;
     skos:exactMatch <http://bag.basisregistraties.overheid.nl/bag/id/woonplaats/1302> ;
     skos:exactMatch <http://www.wikidata.org/entity/Q33516912> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
@@ -1273,6 +1298,7 @@
         geo:crs ogc:CRS84 ;
         schema:description "Een representatief punt in de regio Vijfheerenlanden"@nl 
     ] ;
+    schema:isPartOf  <https://data.razu.nl/id/actor/3abb33e02dffa48fe675358805df281b> ;
     skos:exactMatch <http://www.wikidata.org/entity/Q978875> ;
     skos:inScheme <https://data.razu.nl/id/locatie/00c28ef1f380c89a94e3b00e5c865a43> .
 
