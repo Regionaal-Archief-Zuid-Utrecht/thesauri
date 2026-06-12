@@ -2,8 +2,14 @@ from razu.s3storage import S3Storage
 import os
 import sys
 import hashlib
+import shutil
 
- # dit python-script upload alle bestanden in de map generated naar de 'context' bucket
+# --- configuratie ---
+BUCKET = 'context'
+NAS_PATH = '/mnt/nas/edepot'
+# --- einde configuratie ---
+
+# dit python-script upload alle bestanden in de map generated naar de 'context' bucket
 
 
 def _md5_hex(file_path: str) -> str:
@@ -36,7 +42,7 @@ def upload_rdf_to_context(prefix: str = "") -> int:
     storage = S3Storage()
 
     # Ensure bucket exists
-    bucket = 'context'
+    bucket = BUCKET
     ok = False
     try:
         if hasattr(storage, 'check_or_create_bucket'):
@@ -84,6 +90,26 @@ def upload_rdf_to_context(prefix: str = "") -> int:
             print(f"[FAIL] {path}: {e}", file=sys.stderr)
 
     print(f"Uploaded: {total - failures}, Failed: {failures}, Total: {total}")
+
+    nas_dest = os.path.join(NAS_PATH, bucket)
+    if not os.path.isdir(NAS_PATH):
+        print(f"WAARSCHUWING: NAS-map niet beschikbaar: {NAS_PATH}", file=sys.stderr)
+    else:
+        os.makedirs(nas_dest, exist_ok=True)
+        nas_failures = 0
+        for name in sorted(os.listdir(generated_dir)):
+            src = os.path.join(generated_dir, name)
+            if not os.path.isfile(src):
+                continue
+            try:
+                shutil.copy2(src, os.path.join(nas_dest, name))
+                print(f"[NAS] {src} -> {nas_dest}/{name}")
+            except Exception as e:
+                nas_failures += 1
+                print(f"[NAS FAIL] {src}: {e}", file=sys.stderr)
+        if nas_failures:
+            print(f"NAS-kopie: {nas_failures} fout(en)", file=sys.stderr)
+
     return 0 if failures == 0 else 1
 
 
