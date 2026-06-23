@@ -30,6 +30,10 @@ Install dependencies
 
 Make sure razulibs is in `$PYTHONPATH`.
 
+## NOTE
+
+rdf/perceel.ttl is too large for github, so I gzip it before committing. Unzip it before running any of the scripts!
+
 ## TODO
 
 - Automated upload to triplestore
