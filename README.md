@@ -10,7 +10,7 @@ Thesauri in RDF for the RAZU e-depot / digital repository.
 
 3. Run `python tools/ttl2json.py` to convert the turtle files to json (the prefered format for the repository)
 
-4. Run `python tools/storeS3.py` to upload the generated json files to the `context`bucket in the S3 store.
+4. Run `python tools/store.py` to upload the generated json files to the `context`bucket in the S3 store and in the `context` folder in the e-depot share. Make sure it has been mounted.
 
 5. Upload the files to the relevant datasets in the triplestore. Currently done manually.
 Each thesaurus has its own dataset in the Triply environment. Each thesaurus is also uploaded to the id/object dataset to allow all data to be queried from a single SPARQL endpoint.
