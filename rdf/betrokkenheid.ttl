@@ -38,6 +38,18 @@
   skos:broader <https://data.razu.nl/id/betrokkenheid/a5ddb6c3c136c956e99041df65b240a0> ;
   skos:prefLabel "Architect"@nl .
 
+<https://data.razu.nl/id/betrokkenheid/6eede30fe695710e87091b08a6134734>
+  a skos:Concept ;
+  skos:note "Geeft bouwkundig advies" ;
+  skos:inScheme <https://data.razu.nl/id/betrokkenheid/8e5fc8818e2acb55185b9330d81a3b53> ;
+  skos:prefLabel "Bouwkundige"@nl .
+
+<https://data.razu.nl/id/betrokkenheid/c752f8009b4c2e10236842c51cae7f97>
+  a skos:Concept ;
+  skos:note "Uitvoerder van bouwwerkzaamheden" ;
+  skos:inScheme <https://data.razu.nl/id/betrokkenheid/8e5fc8818e2acb55185b9330d81a3b53> ;
+  skos:prefLabel "Aannemer"@nl .
+
 <https://data.razu.nl/id/betrokkenheid/943e61542466905ac02e3548cfe68713>
   a skos:Concept ;
   skos:note "De uitgever van een publicatie." ;
