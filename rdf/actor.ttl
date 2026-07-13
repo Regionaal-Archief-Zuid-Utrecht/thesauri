@@ -45,7 +45,7 @@
     prov:wasDerivedFrom
         <https://data.razu.nl/id/actor/923800df36ed049eac123375dbbdba81> ,
         <https://data.razu.nl/id/actor/ccc01d72e94f5e19a6bb5212d1af4a6f> ,
-        <https://data.razu.nl/id/actor/5c5e44886a1cd6f67f5ae63b270a0b24>  .
+        <https://data.razu.nl/id/actor/adca2b4e2656afcd58480e6002c5aead>  .
 
 <https://data.razu.nl/id/actor/923800df36ed049eac123375dbbdba81>
     a schema:Organization, skos:Concept, ldto:Actor, schema:Place ;
@@ -75,7 +75,7 @@
     skos:exactMatch <http://www.wikidata.org/entity/Q68229209> ;
     schema:dissolutionDate "1857-09-08"^^xsd:date ;
     schema:foundingDate "1818-01-01"^^xsd:date ;
-    rdfs:comment "Opgegaan in de gemeente Bunnik in 1964."@nl ;
+    rdfs:comment "Opgegaan in de gemeente Bunnik in 1857."@nl ;
     prov:hadDerivation <https://data.razu.nl/id/actor/5c5e44886a1cd6f67f5ae63b270a0b24> .
 
 # Huidige gemeente Houten
@@ -134,7 +134,7 @@
     skos:exactMatch <http://www.wikidata.org/entity/Q2296683> ;
     schema:dissolutionDate "1857-09-08"^^xsd:date ;
     schema:foundingDate "1818-01-01"^^xsd:date ;
-    rdfs:comment "Opgegaan in de huidige gemeente Houten in 1962."@nl ;
+    rdfs:comment "Opgegaan in de huidige gemeente Houten in 1857."@nl ;
     prov:hadDerivation <https://data.razu.nl/id/actor/424280985651f416dfb6a68ee8ee6c6a> .
 
 <https://data.razu.nl/id/actor/4190eb1f88774ec7771e2445a069daab>
@@ -145,7 +145,7 @@
     skos:exactMatch <http://www.wikidata.org/entity/Q68229198> ;
     schema:dissolutionDate "1857-09-08"^^xsd:date ;
     schema:foundingDate "1818-01-01"^^xsd:date ;
-    rdfs:comment "Opgegaan in de huidige gemeente Houten in 1962."@nl ;
+    rdfs:comment "Opgegaan in de huidige gemeente Houten in 1857."@nl ;
     prov:hadDerivation <https://data.razu.nl/id/actor/424280985651f416dfb6a68ee8ee6c6a> .
 
 # Gemeente Rhenen
@@ -223,7 +223,8 @@
     schema:dissolutionDate "1931-05-01"^^xsd:date ;
     rdfs:comment "Opgegaan in de gemeente Dreibergen-Rijsenburg in 1931."@nl ;
     prov:wasDerivedFrom 
-        <https://data.razu.nl/id/actor/a423ad03a5ec31619c557baad1671b61> ;
+        <https://data.razu.nl/id/actor/a423ad03a5ec31619c557baad1671b61>,
+        <https://data.razu.nl/id/actor/28902f59ecfc715ec7a2057ee994678c> ;
     prov:hadDerivation <https://data.razu.nl/id/actor/fb7488b12dfc5def5d192628e6a87f83> .
 
 <https://data.razu.nl/id/actor/b176ca0c66827cfdbcab666d620340b1>
@@ -502,7 +503,6 @@
     skos:exactMatch <http://www.wikidata.org/entity/Q10053> , <https://identifier.overheid.nl/tooi/id/gemeente/gm0352>;
     skos:inScheme <https://data.razu.nl/id/actor/bd4867122112bf6248d97334ea20479e> ;
     prov:wasDerivedFrom
-        <https://data.razu.nl/id/actor/3e54159d91e927665a3398cf3b2734c5> ,
         <https://data.razu.nl/id/actor/02392413101cbc78709d14b34f597e61> ,
         <https://data.razu.nl/id/actor/9291cee91d27d3eb899db7ca97fcc826> .
 
